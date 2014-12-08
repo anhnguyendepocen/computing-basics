@@ -3,6 +3,12 @@ Computing Basics
 
 A compilation of *basic* things everyone should know about computing, on various related topics.
 
+I am compiling a list of basic "things people should know" about
+computing and information technology, generally for professional and
+academic careers. The target audience is "non-technical", smart people
+who know little or nothing about the technical details of computing, the
+Internet, security, etc. or how any of it actually "works".
+
 Here is a tentative topic list:
 
 * Networking
