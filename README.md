@@ -25,3 +25,5 @@ Here is a tentative topic list:
 * Programming
 
 Each topic will get its own page in [the wiki](https://github.com/brianhigh/computing-basics/wiki).
+
+Once the initial compilation is made, I will likely clean up and place into individual markdown (md) files.
