@@ -19,7 +19,7 @@ The team consists of editors (Brian High) and contributors, listed below.
 
 Thanks to the following people who have contributed to this resource (in no particular order):
 
-*Wilson Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Travis Mitchell, Chance Reschke*
+*Wilson Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Richard Letts, Travis Mitchell, Chance Reschke, Carl Riches, John Yocum, Martin Criminale*
 
 ## License
 
