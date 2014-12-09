@@ -40,4 +40,4 @@ Wilson S. Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Travis Mitchell
 
 ## License
 
-Copyright &copy; The Computing Basics Team. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See LICENSE for more information.
+Copyright &copy; The Computing Basics Team. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](https://github.com/brianhigh/computing-basics/blob/master/LICENSE) for more information.
