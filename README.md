@@ -3,7 +3,7 @@ Computing Basics
 
 A compilation of *basic* things everyone should know about computing, on various related topics.
 
-I am compiling a list of basic "things people should know" about
+We are compiling a list of basic "things people should know" about
 computing and information technology, generally for professional and
 academic careers. The target audience is "non-technical", smart people
 who know little or nothing about the technical details of computing, the
@@ -26,4 +26,17 @@ Here is a tentative topic list:
 
 Each topic will get its own page in [the wiki](https://github.com/brianhigh/computing-basics/wiki).
 
-Once the initial compilation is made, I will likely clean up and place into individual markdown (md) files.
+Once the initial compilation is made, we will likely clean up and place into individual markdown (md) files.
+
+## The Computing Basics Team
+
+The team consists of editors (Brian High) and contributors, listed below.
+
+### Contributers
+
+Thanks to the following people who have contriuted to this resource (in no particular order):
+
+Wilson S. Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Travis Mitchell
+
+## License
+Copyright &copy; The Computing Basics Team. License: CC BY 4.0. See LICENSE.md for more information.
