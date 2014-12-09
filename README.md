@@ -39,4 +39,5 @@ Thanks to the following people who have contriuted to this resource (in no parti
 Wilson S. Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Travis Mitchell
 
 ## License
-Copyright &copy; The Computing Basics Team. License: CC BY 4.0. See LICENSE.md for more information.
+
+Copyright &copy; The Computing Basics Team. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See LICENSE for more information.
