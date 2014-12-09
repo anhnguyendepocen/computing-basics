@@ -34,7 +34,7 @@ The team consists of editors (Brian High) and contributors, listed below.
 
 ### Contributers
 
-Thanks to the following people who have contriuted to this resource (in no particular order):
+Thanks to the following people who have contributed to this resource (in no particular order):
 
 Wilson S. Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Travis Mitchell
 
