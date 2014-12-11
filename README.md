@@ -11,7 +11,7 @@ Internet, security, etc. or how any of it actually "works".
 
 These "must know" basics are in [the wiki](https://github.com/brianhigh/computing-basics/wiki).
 
-## Disclaimer
+## Information Disclaimer
 
 The information contained in this [repository](https://github.com/brianhigh/computing-basics) should not be construed in any way as giving business, legal or other advice, or warranting as fail proof, the security of information provided via this [repository](https://github.com/brianhigh/computing-basics).
 
