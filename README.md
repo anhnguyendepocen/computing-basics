@@ -15,7 +15,7 @@ These "must know" basics are in [the wiki](https://github.com/brianhigh/computin
 
 Thanks to the following people who have contributed to this resource (in no particular order):
 
-*Brian High, Wilson Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Richard Letts, Travis Mitchell, Chance Reschke, Bryce Livingston, David Brodbeck, Carl Riches, John Yocum, Martin Criminale, Nathan Dors*
+*Brian High, Wilson Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York, Richard Letts, Travis Mitchell, Chance Reschke, Bryce Livingston, David Brodbeck, Carl Riches, John Yocum, Martin Criminale, Nathan Dors, Michael Burdett*
 
 ## Copyright, License and Disclaimer
 
