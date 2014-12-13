@@ -1,7 +1,7 @@
 Computing Basics
 ================
 
-A compilation of *basic* things everyone should know about computing, on various related topics.
+This is a compilation of *basic* things everyone should know about computing, on various related topics.
 
 We are compiling a list of basic "things people should know" about
 computing and information technology, generally for professional and
