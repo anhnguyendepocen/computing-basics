@@ -1151,10 +1151,12 @@ things start falling apart. (True story).
 == Buzzwords ==
 
 The technology world suffers from excessive use of buzzwords (words
-associated with hype, or "buzz"). Someone coins a term that invokes a
-looming problem or magical solution. Soon, the phrase gains momentum
-with media exposure, and soon you see it everywhere. Yet, often, people
-are unsure about what the term really means and why they should care.
+associated with hype, or "buzz"). Someone coins a term to describe a
+looming problem or seemingly magical solution. The term or phrase gains
+momentum with media exposure, and soon you see it everywhere. Yet,
+often, people are unsure about what the term actually means or if it
+really matters. Relentless exposure to the ill-defined hype results in
+the modern malady known as _buzzword fatigue_.
 
 === Cloud Computing ===
 
@@ -1163,13 +1165,19 @@ symbol in network diagrams. The cloud represented the "rest of the
 network" or the part of the network lying outside of your organization.
 Usually, this means the Internet. So,
 http://en.wikipedia.org/wiki/Cloud_computing[cloud computing] is using
-servers outside of your organization, often over the Internet. So, this
-is not really that new, but more of a continuing trend.
+servers outside of your organization, often over the Internet. As you
+may realize, this is not really that new, but more of a increasing
+trend.
 
 You now have several competing services to choose from that present vast
-computing resources as a "commodity". Computing resources may be rented
-on an as-needed basis to scale to meet varying demand. You only pay for
-the resources you use.
+computing resources as a "commodity", like electricity. Computing
+resources may be rented on an as-needed basis to scale to meet varying
+demand. You only pay for the resources you use. You can even run your
+own http://en.wikipedia.org/wiki/Virtual_machine[virtual machine] in the
+cloud, through the wonders of
+http://en.wikipedia.org/wiki/Virtualization[virtualization], a buzzword
+with its own http://virtualowl.kennesaw.edu/buzzwords.html[family of
+buzzwords].
 
 So, the attraction is not having to buy, house, and maintain hardware,
 networking, and in some cases, software. Potential downsides are lack of
@@ -1179,8 +1187,8 @@ your network connection to the cloud services and the Internet
 infrastructure that your connection relies upon.
 
 Some people even consider "the cloud" to simply be another name for "the
-network" or "not my computer". In any case, the notion of "cloud
-computing" involves some degree of "outsourcing" of computing resources
+network" or "not my computer". In any case, the notion of _cloud
+computing_ involves some degree of "outsourcing" of computing resources
 and accessing those resources through the network.
 
 === Big Data ===
@@ -1202,10 +1210,12 @@ data.
 http://en.wikipedia.org/wiki/Data_mining[Data mining] is looking for
 patterns in a very large data set. Imagine trying to find the "needles
 in a haystack" of huge volumes of data. Much of this is enabled by very
-low cost, parallel computing. Map/reduce is a well-known big-data
-analysis technique made popular by the Hadoop system. The limiting
-factor here becomes the network because you can only move so much data
-in a given time frame. Here you may turn to "cloud computing" for
+low cost, https://en.wikipedia.org/wiki/Parallel_computing[parallel
+computing].
+
+The limiting factor here becomes the network because you can only move
+so much data in a given time frame. Here you may turn to _cloud
+computing_ for
 http://en.wikipedia.org/wiki/Massively_parallel_%28computing%29[
 massively parallel] processing power.
 
@@ -1214,8 +1224,8 @@ massively parallel] processing power.
 http://en.wikipedia.org/wiki/Data_science[Data science] is a term
 generally used to refer to statistical data analysis and the
 presentation of results, often visually. In particular, some people use
-"data science" to mean the analysis of _big data_ using techniques such as
-_data mining_ to produce stunning
+"data science" to mean the analysis of _big data_ using techniques such
+as _data mining_ to produce stunning
 http://en.wikipedia.org/wiki/Data_visualization[visualizations]. The
 publishing of such _data products_ is termed
 http://en.wikipedia.org/wiki/Data_journalism[data journalism]. Of
