@@ -8,7 +8,7 @@ who know little or nothing about the technical details of computing, the
 Internet, security, etc. or how any of it actually "works".
 
 These "must know" basics are in documented in a  
-https://github.com/brianhigh/computing-basics/wiki[the wiki] and are also 
+https://github.com/brianhigh/computing-basics/wiki[wiki] and are also 
 compiled into a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF ebook].
 
 === The Computing Basics Team
