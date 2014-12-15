@@ -1147,3 +1147,31 @@ plans will be when it's no longer useful. If the plan is to create
 500,000 files/week for a decade, do the math and figure out if it's
 practical to store and analyze these files before you're in year 8 and
 things start falling apart. (True story).
+
+== Buzzwords ==
+
+The technology world suffers from excessive use of buzzwords (words associated with hype, or "buzz"). Someone coins a term that invokes a looming problem or magical solution. Soon, the phrase gains momentum with media exposure, and soon you see it everywhere. Yet, often, people are unsure about what the term really means and why they should care.
+
+=== Cloud Computing ===
+
+The notion of "the cloud" in computing comes from the use of a cloud symbol in network diagrams. The cloud represented the "rest of the network" or the part of the network lying outside of your organization. Usually, this means the Internet. So, http://en.wikipedia.org/wiki/Cloud_computing[cloud computing] is using servers outside of your organization, often over the Internet. So, this is not really that new, but more of a continuing trend. 
+
+You now have several competing services to choose from that present vast computing resources as a "commodity". Computing resources may be rented on an as-needed basis to scale to meet varying demand. You only pay for the resources you use.
+
+So, the attraction is not having to buy, house, and maintain hardware, networking, and in some cases, software. Potential downsides are lack of control; you have to go through an outside organization if something isn't working the way you expect it to work. You also have to depend on your network connection to the cloud services and the Internet infrastructure that your connection relies upon.
+
+Some people even consider "the cloud" to simply be another name for "the network" or "not my computer". In any case, the notion of "cloud computing" involves some degree of "outsourcing" of computing resources and accessing those resources through the network.
+
+=== Big Data ===
+
+http://en.wikipedia.org/wiki/Big_data[Big Data] is a term applied to very large amounts of data. Search online and you will find many different ways to define this. For our purposes, we will use the broad definition of: a collection of data so large that its largeness creates significant processing problems, but can yield value not found in smaller data sets.
+
+Very large data sets are enabled by very low cost storage. For example, instead of sampling every hour or even every minute, you can sample every second because you have the space to store all of the resultant data. 
+
+=== Data Mining ===
+
+http://en.wikipedia.org/wiki/Data_mining[Data mining] is looking for patterns in a very large data set. Imagine trying to find the "needles in a haystack" of huge volumes of data. Much of this is enabled by very low cost, parallel computing. Map/reduce is a well-known big-data analysis technique made popular by the Hadoop system. The limiting factor here becomes the network because you can only move so much data in a given time frame. Here you may turn to "cloud computing" for http://en.wikipedia.org/wiki/Massively_parallel_%28computing%29[massively parallel] processing power.
+
+=== Data Science ===
+
+http://en.wikipedia.org/wiki/Data_science[Data science] is a term generally used to refer to statistical data analysis and the presentation of results, often visually. In particular, some people use "data science" to mean the analysis of Big Data using techniques such as Data Mining to produce stunning http://en.wikipedia.org/wiki/Data_visualization[visualizations]. The publishing of such "data products" is termed http://en.wikipedia.org/wiki/Data_journalism[data journalism]. Of course, the analysis may make use of cloud computing in terms of cloud storage and processing.
