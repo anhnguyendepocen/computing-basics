@@ -1,39 +1,49 @@
 = Computing Basics =
 
-== Computing Basics ==
+== Introduction ==
 
-This is a compilation of _basic_ things everyone should know about
+This resource contains a compilation of _basic_ things everyone should know about
 computing, on various related topics.
 
-=== Main Topics ===
+The intent is to provide a relatively concise guide to the essentials of computing 
+which will make the most impact in improving your computing experience.
 
-* https://github.com/brianhigh/computing-basics/wiki/tldr[Top Tips]
-* https://github.com/brianhigh/computing-basics/wiki/networking[Networking]
-* https://github.com/brianhigh/computing-basics/wiki/security[Security]
-* https://github.com/brianhigh/computing-basics/wiki/resource_management[Resource
-Management]
-* https://github.com/brianhigh/computing-basics/wiki/files[Files]
-* https://github.com/brianhigh/computing-basics/wiki/data[Data]
-* https://github.com/brianhigh/computing-basics/wiki/big_data[Big Data]
-* https://github.com/brianhigh/computing-basics/wiki/cloud_computing[Cloud
-Computing]
-* https://github.com/brianhigh/computing-basics/wiki/version_control[Version
-Control]
-* https://github.com/brianhigh/computing-basics/wiki/programming[Programming]
+These "must know" basics are in documented in a  
+https://github.com/brianhigh/computing-basics/wiki[wiki] and are also 
+compiled into a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF ebook].
 
-=== About This ===
+Find latest version of this document online at:
+https://github.com/brianhigh/computing-basics/wiki
 
-We are compiling a list of basic "things people should know" about
-computing and information technology, generally for professional and
-academic careers. The target audience is "non-technical", smart people
+=== Intended Audience ===
+
+The target audience is "non-technical", smart people
 who know little or nothing about the technical details of computing, the
 Internet, security, etc. or how any of it actually "works".
 
-See our https://github.com/brianhigh/computing-basics[file repository]
-for project-related information, a list of
-https://github.com/brianhigh/computing-basics/blob/master/README.md[contributors], 
-and a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF version] of the wiki.
+We assume that you know how to use a computer and it's accessories to use a web 
+browser and create basic office documents. We also assume you are a busy person, 
+either a student or a working professional.
 
+=== About the Authors ===
+
+A https://github.com/brianhigh/computing-basics[community] of computer support 
+professionals, enthusiasts, and our readers have 
+contributed to this resource. Originally compiled by members of the University of 
+Washington's http://mailman13.u.washington.edu/mailman/listinfo/techsupport[TechSupport] 
+email list subscribers, this work continues to be maintained through community effort.
+Please share your feedback with the project through our online https://github.com/brianhigh/computing-basics[repository]. We will thankfully incorporate your contribution and list 
+you as a contributor.
+
+=== Copyright, License and Disclaimer ===
+
+Copyright © The https://github.com/brianhigh/computing-basics[Computing
+Basics Team]. This information is provided for educational purposes
+only. See
+https://github.com/brianhigh/computing-basics/blob/master/LICENSE[LICENSE]
+for more information.
+https://creativecommons.org/licenses/by/4.0/[Creative Commons
+Attribution 4.0 International Public License].
 
 === Copyright, License and Disclaimer ===
 
@@ -1107,30 +1117,3 @@ plans will be when it's no longer useful. If the plan is to create
 500,000 files/week for a decade, do the math and figure out if it's
 practical to store and analyze these files before you're in year 8 and
 things start falling apart. (True story).
-
-
-## Introduction ##
-
-Data are the individual pieces of information we store in files and share through the network. So, what applies to files, such as the importance of backups, also applies to data. The same goes for security principles and practices. 
-
-## Data, Documents, and Databases ##
-
-We may treat data differently than other information. Whereas a document, such as a MS-Word file, may be intended only for human readers, raw data are usually meant to be read and processed by automated means -- by machines. The data may be queried, analyzed, and summarized into tables and plots for human eyes, but most people do not want to see all of the raw data directly. 
-
-Further data may grow immensely in size without slowing down the processing. This need for scalability requires data to be managed more carefully and thoughtfully than individual document files. This is why data are often stored in data structures called databases. Databases are specifically designed for efficient storage, searching, and processing of large amounts data. Sometimes, it is easier and more practical to store data in an individual data file than in a full-featured database system. It really depends on your needs.
-
-## An Approach to Data Management ##
-
-Start with an easily machine readable format (when possible), preferably an open standard like CSV. This will reduce the amount of work required to convert the input data into a usable form for the widest number of applications.
-
-Normalize your data. In other words, when storing data, use a consistent format. For example, for every row of data, use the same format of datestamp. In addition, when using a relational database, avoid redundant data by linking related tables using a common identifier.
-
-Use the right tool for the job. Often folks are drawn toward software like MS-Access and File Maker due to the ease of use. However, such tools don't scale very well, and perform poorly in multi-user situations. If you find yourself needing a relational database, it's best to start with something like MySQL or MS SQL, and using one of their many graphical database management tools. While they do have a somewhat higher learning curve, their ability to scale means, you don't have to retool your work flow as your needs grow. 
-
-## "Up-front" Data Planning Advice ##
-
-* Determine up-front how important the data will be and treat it accordingly. Take backups seriously and design and implement the best automated backup system you can afford, then regularly audit and test backups to make sure you can restore from them. Without good backups, you are one small mishap away from major disaster. Who wants to live like that?
-
-* Determine up-front how the data will be accessed. Strongly consider formatting your data for easy automated processing by using simple tabular structures of rows and columns in common, flexible file formats. Realize that you may want to collaborate with others and consider allowing for multiuser, simultaneous, and remote access. Sharing data files by email does not scale well and is insecure. A file sitting on a file server will not allow simultaneous editing, and one person's edited version will overwrite the whole file. Manually merging changes can be extremely difficult and error-prone. Linking separate files together properly can be challenging without specialized tools like relational databases.
-
-* Determine up-front how long the data will be around, and what the plans will be when it's no longer useful. If the plan is to create 500,000 files/week for a decade, do the math and figure out if it's practical to store and analyze these files before you're in year 8 and things start falling apart. (True story).
