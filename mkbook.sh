@@ -18,7 +18,6 @@ echo "= Computing Basics =" > Header.asciidoc
 
 cat Header.asciidoc \
     Home.asciidoc \
-    Footer.asciidoc \
     tldr.asciidoc \
     networking.asciidoc \
     security.asciidoc \

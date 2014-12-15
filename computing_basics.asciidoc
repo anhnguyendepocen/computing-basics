@@ -2,17 +2,14 @@
 
 == Introduction ==
 
-This resource contains a compilation of _basic_ things everyone should know about
-computing, on various related topics.
+This resource contains a compilation of _basic_ things everyone should 
+know about computing, on various related topics. The intent is to provide 
+a relatively concise guide to the essentials of computing which will make 
+the most impact in improving your computing experience.
 
-The intent is to provide a relatively concise guide to the essentials of computing 
-which will make the most impact in improving your computing experience.
+These "must know" basics are in documented in a https://github.com/brianhigh/computing-basics/wiki[wiki] and are also compiled into a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF ebook].
 
-These "must know" basics are in documented in a  
-https://github.com/brianhigh/computing-basics/wiki[wiki] and are also 
-compiled into a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF ebook].
-
-Find latest version of this document online at:
+Find latest version of this document online at: 
 https://github.com/brianhigh/computing-basics/wiki
 
 === Intended Audience ===
@@ -44,20 +41,6 @@ https://github.com/brianhigh/computing-basics/blob/master/LICENSE[LICENSE]
 for more information.
 https://creativecommons.org/licenses/by/4.0/[Creative Commons
 Attribution 4.0 International Public License].
-
-=== Copyright, License and Disclaimer ===
-
-
-Find latest version of this document online at:
-https://github.com/brianhigh/computing-basics/wiki Copyright © The
-https://github.com/brianhigh/computing-basics[Computing Basics Team].
-This information is provided for educational purposes only. See
-https://github.com/brianhigh/computing-basics/blob/master/LICENSE[LICENSE]
-for more information.
-https://creativecommons.org/licenses/by/4.0/[Creative Commons
-Attribution 4.0 International Public License].
-
-
 == In a hurry? Top Tips ==
 
 *_Backups!_*
