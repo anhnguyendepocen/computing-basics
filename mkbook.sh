@@ -26,3 +26,4 @@ cat Header.asciidoc \
     > computing_basics.asciidoc
 
 a2x --conf-file=a2x.conf -d book -f pdf computing_basics.asciidoc
+a2x --conf-file=a2x.conf -d book -f epub computing_basics.asciidoc

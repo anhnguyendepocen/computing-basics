@@ -7,10 +7,7 @@ know about computing, on various related topics. The intent is to provide
 a relatively concise guide to the essentials of computing which will make 
 the most impact in improving your computing experience.
 
-These "must know" basics are in documented in a https://github.com/brianhigh/computing-basics/wiki[wiki] and are also compiled into a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF ebook].
-
-Find latest version of this document online at: 
-https://github.com/brianhigh/computing-basics/wiki
+These "must know" basics are in documented in a https://github.com/brianhigh/computing-basics/wiki[wiki] and are also compiled into an ebook (https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF] and https://github.com/brianhigh/computing-basics/raw/master/computing_basics.epub[EPUB]). Find latest version of this document online at: https://github.com/brianhigh/computing-basics/wiki
 
 === Intended Audience ===
 
@@ -21,6 +18,17 @@ Internet, security, etc. or how any of it actually "works".
 We assume that you know how to use a computer and it's accessories to use a web 
 browser and create basic office documents. We also assume you are a busy person, 
 either a student or a working professional.
+
+=== Fact or Opinion? ===
+
+As we do not generally cite individual authors or reference sources, we should be clear that 
+the views expressed in this resource are mostly opinions. While we may link certain terms to 
+Wikipedia entries and other other online works, we do so only for your convenience. We hope 
+that you take the time to look up terms you do not understand or are unclear about. If you 
+disagree with an opinion or take issue with something expressed as fact, please share your 
+views through the "issues" link on our https://github.com/brianhigh/computing-basics[GitHub 
+site]. If you wish to have a more academic or scholarly treatment of this material, we encourage
+you to seek out textbooks, journal articles, and other works from academic authorities.
 
 === About the Authors ===
 
