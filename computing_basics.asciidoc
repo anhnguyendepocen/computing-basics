@@ -30,8 +30,9 @@ who know little or nothing about the technical details of computing, the
 Internet, security, etc. or how any of it actually "works".
 
 See our https://github.com/brianhigh/computing-basics[file repository]
-for project-related information and a list of
-https://github.com/brianhigh/computing-basics/blob/master/README.md[contributors].
+for project-related information, a list of
+https://github.com/brianhigh/computing-basics/blob/master/README.md[contributors], 
+and a https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF version] of the wiki.
 
 
 === Copyright, License and Disclaimer ===
