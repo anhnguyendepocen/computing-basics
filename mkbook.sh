@@ -20,6 +20,14 @@ echo "\n\n=== Copyright, License and Disclaimer ===\n\n" > Footer.asciidoc
 
 cat _Footer.asciidoc >> Footer.asciidoc
 
-cat Header.asciidoc Home.asciidoc Footer.asciidoc tldr.asciidoc networking.asciidoc security.asciidoc resource_management.asciidoc files.asciidoc data.asciidoc > computing_basics.asciidoc
+cat Header.asciidoc \
+    Home.asciidoc \
+    Footer.asciidoc \
+    tldr.asciidoc \
+    networking.asciidoc \
+    security.asciidoc \
+    resource_management.asciidoc \
+    files.asciidoc data.asciidoc \
+    > computing_basics.asciidoc
 
 a2x --conf-file=a2x.conf -d book -f pdf computing_basics.asciidoc
