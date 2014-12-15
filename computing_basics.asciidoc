@@ -7,7 +7,7 @@ know about computing, on various related topics. The intent is to provide
 a relatively concise guide to the essentials of computing which will make 
 the most impact in improving your computing experience.
 
-These "must know" basics are in documented in a https://github.com/brianhigh/computing-basics/wiki[wiki] and are also compiled into an ebook (https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF] and https://github.com/brianhigh/computing-basics/raw/master/computing_basics.epub[EPUB]). Find latest version of this document online at: https://github.com/brianhigh/computing-basics/wiki
+These "must know" basics are in documented in a https://github.com/brianhigh/computing-basics/wiki[wiki] and are also compiled into an ebook (https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF] and https://github.com/brianhigh/computing-basics/raw/master/computing_basics.epub[EPUB]). Find the latest version of this document online at: https://github.com/brianhigh/computing-basics/wiki
 
 === Intended Audience ===
 
@@ -19,7 +19,7 @@ We assume that you know how to use a computer and it's accessories to use a web
 browser and create basic office documents. We also assume you are a busy person, 
 either a student or a working professional.
 
-=== Fact or Opinion? ===
+=== Fact or Opinion? Just our 2¢ ===
 
 This work is a compilation of opinions, freely offered by our contributors. See the next section for 
 details. Additional explanatory material has been added to provide context and to "fill in the 
@@ -49,8 +49,8 @@ professionals, enthusiasts, and our readers have
 contributed to this resource. Originally compiled by members of the University of 
 Washington's http://mailman13.u.washington.edu/mailman/listinfo/techsupport[TechSupport] 
 email list subscribers, this work continues to be maintained through community effort.
-Please share your feedback with the project through our online https://github.com/brianhigh/computing-basics[repository]. We will thankfully incorporate your contribution and list 
-you as a contributor.
+Please share your feedback with the project through our online https://github.com/brianhigh/computing-basics[repository]. We will thankfully incorporate your contributions and list 
+you as a contributor in our https://github.com/brianhigh/computing-basics/blob/master/README.asciidoc[README file].
 
 === Copyright, License and Disclaimer ===
 
@@ -118,23 +118,24 @@ ____
 
 === Introduction ===
 
-* Computers, phones, tablets, etc. communicate using wired and/or
-wireless networks, for example the network known as "the Internet".
-* Network communications are facilitated by various protocols, for
-example HTTP (web) and SMTP (email), Ethernet, and WiFi.
-* The networking technologies and their protocols are designed to be
+Computers, phones, tablets, etc. communicate using wired and/or
+wireless networks, for example the network known as "the Internet". 
+Network communications are facilitated by various protocols, for
+example HTTP ("web") and SMTP ("email"), Ethernet ("wired"), and WiFi ("wireless"). 
+The networking technologies and their protocols are designed to be 
 modular and are organized into several layers.
-* The use of standards (technologies, protocols, frameworks, etc.) makes
+
+The use of standards (technologies, protocols, frameworks, etc.) makes
 networking easier to use and troubleshoot. Knowing a little about these
-standards will help you make better use of computer networks.
-* These technical standards are defined in public documents (RFCs, etc.)
+standards will help you make better use of computer networks. 
+These technical standards are defined in public documents (RFCs, etc.)
 and are developed openly by international working groups. Anyone can
 read these documents to understand the protocols and learn how they work
 together.
 
 === Reliability ===
 
-* Computer networks are useful, but not entirely reliable. If it is
+Computer networks are useful, but not entirely reliable. If it is
 really important that a communication is made, then email, text, etc.,
 may not be sufficient. Use a telephone or some other means of real-time
 communication if reliability is important. Although using computers or
@@ -143,48 +144,50 @@ best way in certain circumstances.
 
 === Wired vs. Wireless ===
 
-* All else being equal, for a typical computer workstation or laptop, a
+All else being equal, for a typical computer workstation or laptop, a
 wired (e.g, Ethernet) network connection will generally be more
-reliable, faster, and more secure than a wireless (e.g, WiFi) one.
-* If you are using a wired connection, but your device also has wireless
+reliable, faster, and more secure than a wireless (e.g, WiFi) one. 
+If you are using a wired connection, but your device also has wireless
 enabled, you will save energy and possibly improve your network
 performance by disabling the wireless while you are wired. Some newer
 devices will do this for you by default, but check on this.
 
-=== Device Management ===
+=== Device Management Tips ===
 
-* Keep your devices up-to-date on security patches, plugins, firmware,
+Keep your devices up-to-date on security patches, plugins, firmware,
 anti-virus, etc. While this is a standard security practice, it will
 also help fix certain problems caused by version incompatibilities and
 bug fixes. Be careful, though, as some bug fixes and updates may create
 bigger problems than they solve. Some firmware updates can "brick" a
 device. If in doubt, search online for bug reports about updates before
 applying them.
-* Manage your personal WiFi network(s) and know how to log in to your
-router's administrative features.
-* Make sure to consult the router manual and configure the highest
-encryption available, and use a complex password featuring case
-sensitivity and special characters for both the router's WiFi network
-and the router's administrative features.
 
-=== Troubleshooting ===
+Manage your personal WiFi network(s) and know how to log in to your
+router's administrative features. Make sure to consult the router manual 
+and configure the highest encryption available, and use a complex password 
+featuring case sensitivity and special characters for both the router's 
+WiFi network and the router's administrative features.
+
+=== Troubleshooting Tips ===
 
 ==== General Concepts ====
 
-* Do network troubleshooting starting with the devices closest to your
+Do network troubleshooting starting with the devices closest to your
 machine and then moving outward. For example, try accessing your own
 router (via ping or its web interface) or another machine on your local
 network before concluding your Internet connection is down. That way if
 it's a local problem, you don't waste time on hold with your service
 provider's technical support.
-* Given that professionally managed networks are generally well designed
+
+Given that professionally managed networks are generally well designed
 and maintained, a poor network connection is most likely caused by a
 fault at your end (your device), especially if you are using a wireless
 connection. The most common exceptions would be a network outage at your
 service provider or somewhere else along the route, but those will be
 relatively rare compared to problems you may have with your own
 equipment.
-* Out of all of the equipment in the chain, your personal equipment is
+
+Out of all of the equipment in the chain, your personal equipment is
 usually the weakest link. The reason is that most people are using
 consumer-grade equipment (desktops, laptops, phones, tablets, home
 routers, etc.) with relatively cheap components, more unstable software,
@@ -193,37 +196,43 @@ chain are generally industrial-grade telecom equipment and servers built
 with more rugged components, housed in more secure locations with
 adequate cooling and redundant power, and are more rigorously tested,
 monitored, and serviced.
-* All of the various links in the route between you and the remote site,
+
+All of the various links in the route between you and the remote site,
 etc., need to be working properly. If your computer seems to be fine and
 the site seems fine, but there is still a problem, the cause may be a
 router or switch between you and the other system.
-* Take some time to learn about concepts such as domain name servers,
+
+Take some time to learn about concepts such as domain name servers,
 routing, NAT, etc., as this knowledge will help your troubleshooting
 efforts immensely, saving a lot of time and frustration (yours and those
 who help you).
 
-==== Troubleshooting tools and techniques ====
+==== Troubleshooting Tools and Techniques ====
 
-* If you are having a problem with an application that uses networking,
+If you are having a problem with an application that uses networking,
 such as your web browser or your email client, check networking with
 another application, website, device, etc., try to narrow the possible
 causes. There are many layers of technology that must all be working
 together properly, and by limiting the variables, you are more likely to
 determine the most likely source of the problem.
-* First, if using wireless, make sure the wireless feature is enabled,
+
+First, if using wireless, make sure the wireless feature is enabled,
 switched on, etc., or if using a wired connection, check your network
 cable is plugged in (both ends), then check the link light on your
 computer and the network equipment (router, switch, etc.), making sure
 any network devices are powered on, then check if you have been assigned
 a valid IP address.
-* Know how to find your IP address, MAC address and DHCP settings; these
+
+Know how to find your IP address, MAC address and DHCP settings; these
 are key pieces of information needed to get help from your network
 service provider.
-* Learn to do a network "ping" and how to interpret the results. This is
+
+Learn to do a network "ping" and how to interpret the results. This is
 an invaluable troubleshooting tool that comes with most popular desktop
 and laptop computer systems. Ping and "traceroute" (tracert) can help
 you find the network hops (routes) which may be down or slow.
-* Just because you can make a "good" wireless connection, does not mean
+
+Just because you can make a "good" wireless connection, does not mean
 that the router (access point) you have connected to will actually
 provide you with Internet access. It's own connection to "the outside"
 may be down, it may require some sort of authentication (or payment), or
@@ -231,12 +240,13 @@ it may simply not be configured properly.
 
 ==== Performance ====
 
-* If your wireless connection is slow, check on the quality of the
+If your wireless connection is slow, check on the quality of the
 connection (how many "bars") and also consider interference (from
 microwave ovens, other network users such as in a large lecture hall,
 etc.). If possible, move closer to the router (access point) with a more
 direct "line of sight".
-* Even if the network is working perfectly, you still may not get the
+
+Even if the network is working perfectly, you still may not get the
 results you are expecting. You may see slow data transfer on what should
 be a fast network connection. The bottleneck may be the application you
 are using, extra computational overhead such as compression or
@@ -245,7 +255,8 @@ simply that there are a lot of hops between you and the destination,
 each one adding additional overhead and latency. Just because the
 endpoints have fast connections does not mean that all of the links
 between them also have fast connections.
-* If your browser is slow to open or load the start page, you may want
+
+If your browser is slow to open or load the start page, you may want
 to choose a "blank page" or a simpler page as your start page. Likewise,
 web pages with large images, animation, advertisements, or interactive
 content will often be slower to load than simple pages with basic
@@ -259,25 +270,28 @@ computer.
 
 === Introduction ===
 
-* _Information_ security is about protecting information from
+_Information_ security is about protecting information from
 unauthorized use as well ensuring availability for authorized use.
 _Computer_ security is this practice applied specifically to computing
 devices, networks, services, and data.
-* As computer security is a "practice", not a "product", it depends on
+
+As computer security is a "practice", not a "product", it depends on
 people, policies, training and behavior every bit as much as (and
 arguably much more than) software and hardware.
 
 === Be Smart ===
 
-* Some believe that security and convenience are mutually exclusive,
+Some believe that security and convenience are mutually exclusive,
 that as one increases, the other will decrease. The presumption is that
 security measures make a system harder to use. This is not necessary
 true, but having some degree of both security and convenience requires a
 smarter approach, carefully engineering the system so that the most
 secure behavior is also the easiest and most compelling.
-* Encourage a security-minded culture in your home or workplace. This
+
+Encourage a security-minded culture in your home or workplace. This
 will make it easier to develop and practice secure habits.
-* You are ultimately responsible for the security of your computing
+
+You are ultimately responsible for the security of your computing
 experience. Take an active role. Learn and understand basic security
 concepts. Engage in the computing behaviors or "hygiene" which will give
 you the level of security you need while still maintaining the level of
@@ -285,58 +299,62 @@ usability you desire. Be smart.
 
 === Manage Risks ===
 
-* Like the old adage, "out of sight, out of mind", risks not seen are
+Like the old adage, "out of sight, out of mind", risks not seen are
 easier to ignore. "Ignorance is bliss" ... until it isn't.
-* Make an effort to see the practical risks of various online behaviors
+
+Make an effort to see the practical risks of various online behaviors
 and how they might put you at risk personally, financially, and
 socially.
 
 ==== Personal Risk Assessment ====
 
-* Ask yourself, "What do I have which I need to protect? How valuable
+Ask yourself, "What do I have which I need to protect? How valuable
 are those things to me?"
-* Consider the value of your property, your personal safety, your legal
+
+Consider the value of your property, your personal safety, your legal
 identity, your social reputation, your financial assets, your employment
 status, and your career/future. All of those, and those of your friends,
 family members, coworkers, employer, etc. are all valuable assets which
 you may put at risk with your online activity.
-* Consider threats such as identify theft, compromised bank accounts,
+
+Consider threats such as identify theft, compromised bank accounts,
 stolen credit card numbers, stolen account credentials, investment
 scams, computer virus infections, loss of data, internet stalking, and
 disclosure of personal information resulting in social embarrassment,
 discrimination, persecution, hate crimes, loss of employment, property
 theft, or personal injury.
-* Evaluate how vulnerable you might be to each of those threats. This
-depends largely on your behavior.
-* You can estimate the risks you face as the product of
-http://en.wikipedia.org/wiki/IT_risk[Threat × Vulnerability × Asset
-Value].
-* Now modify your behavior (including computing practices and online
+
+Evaluate how vulnerable you might be to each of those threats. This
+depends largely on your behavior. You can estimate the risks you face 
+as the product of http://en.wikipedia.org/wiki/IT_risk[Threat × 
+Vulnerability × Asset Value].
+
+Now modify your behavior (including computing practices and online
 habits) to manage those risks.
 
 === Tools and Techniques ===
 
 ==== "End-users" View ====
 
-* When most computer-savvy people think of computer security, they think
+When most computer-savvy people think of computer security, they think
 of: usernames, passwords, anti-virus software, security patches,
 firewalls, and encryption.
 
 ==== "Computer Administrators" View ====
 
-* Computer administrators and other computer professionals will also
+Computer administrators and other computer professionals will also
 think of configuration: disabling unneeded services and accounts,
 changing default passwords, tightening access controls and firewall
 rules, strengthening security policy settings, alerts, logging,
 monitoring, backups, redundancy, and load balancing.
-* They also take physical security measures such as installing locks,
-cameras, and alarms.
-* They often have to prove their systems are compliant with various
+
+They also take physical security measures such as installing locks,
+cameras, and alarms. They often have to prove their systems are compliant with various
 regulations, so they will also think of documentation, audits and
-penetration tests.
-* Further, they will stay current with the latest security news alerts
+penetration tests. Further, they will stay current with the latest security news alerts
 about new threats and respond accordingly.
-* Regardless, all of these tools and measures are useless if people
+
+Regardless, all of these tools and measures are useless if people
 subvert them with insecure practices. So professionals will also create
 policies, find ways to enforce them, and educate their organization
 about the importance of secure practices. In this way, they encourage a
@@ -344,11 +362,10 @@ culture of secure computing.
 
 ==== Your View ====
 
-* Since the practice of security involves addressing risks in all links
-of the chain, you do not want to be the weakest link.
-* There is no reason why you should limit your practices to only those
-commonly known by "the masses".
-* Consider investigating and utilizing the practices, tools and
+Since the practice of security involves addressing risks in all links 
+of the chain, you do not want to be the weakest link. There is no reason 
+why you should limit your practices to only those commonly known by "the 
+masses". Consider investigating and utilizing the practices, tools and 
 techniques of the professionals.
 
 === Best Practices ===
@@ -465,28 +482,27 @@ doing some investigation on the matter using reliable Internet sources.
 
 === Encryption ===
 
-* Encryption is the encoding and decoding of data.
-* Usually this is done mathematically in software or in specialized
-hardware.
-* It allows you to protect information so that some "secret" (key) is
-needed to access (decrypt) the data.
-* While the encrypted data is safer when properly encrypted, one must
-carefully guard the secret key.
-* Encryption can be used for secure storage by encrypting files,
-folders, volumes, and disks.
-* Encryption can encrypt data in transit, creating a protected tunnel
-that unencrypted ("clear text") data can pass through.
+Encryption is the encoding and decoding of data. Usually this is done 
+mathematically in software or in specialized hardware. It allows you to 
+protect information so that some "secret" (key) is needed to access 
+(decrypt) the data. While the encrypted data is safer when properly 
+encrypted, one must carefully guard the secret key.
+
+Encryption can be used for secure storage by encrypting files, folders, 
+volumes, and disks. Encryption can encrypt data in transit, creating a 
+protected tunnel that unencrypted ("clear text") data can pass through.
 
 ==== Network Encryption (in Transit) ====
 
-* Usually passwords are encrypted in transit when logging into a system.
+Usually passwords are encrypted in transit when logging into a system.
 The system will also store a "password hash" on the system to compare
 against the password you have sent. The hashed password is one-way
 encrypted so that it can still be used to authenticate you, but cannot
 be used by someone else. That is, the administrator (or some attacker)
 cannot decrypt (look up) the password from the hash. If you forget the
 password, it must be reset.
-* Web servers can use encryption for data in transit. When you access a
+
+Web servers can use encryption for data in transit. When you access a
 web page using an HTTPS address, the browser will attempt to set up an
 encrypted connection to the web server. If this fails, or there is a
 certificate error, you will see an error message. You may choose to
@@ -497,30 +513,34 @@ Otherwise, if the connection proceeds without error, then there will
 usually be a padlock icon with some indication of success such as a
 "green" color or "closed" image. You may investigate the certificate
 status by clicking this icon and viewing the encryption details.
-* Many other network services use encryption. For any network site you
+
+Many other network services use encryption. For any network site you
 visit or service you use, look into whether or not encryption is used
 and how you might configure it or validate that it is working.
 
 ==== File Encryption (in Storage, at Rest) ====
 
-* As for encrypting files, you can use the encryption features of
+As for encrypting files, you can use the encryption features of
 archiving software like 7-Zip, WinZip, etc., use a more general-purpose
 tool like GnuPG, or the file or disk encryption features of your
 operating system or device.
-* People should encrypt sensitive files if stored locally and before
+
+People should encrypt sensitive files if stored locally and before
 sending them over the Internet or any other untrusted network. The
 person on the receiving end needs to know how to decrypt the files, so
 you will need to coordinate with that person to make sure that they have
 the software and decryption key and know how to use them. You need to
-find a secure way to send the decryption key.
-* Public key cryptography systems like GnuPG solve this particular
-problem, but are a little more complicated to use.
-* So, with a simpler system where there is a shared key, you need to
+find a secure way to send the decryption key. Public key cryptography 
+systems like GnuPG solve this particular problem, but are a little more 
+complicated to use.
+
+So, with a simpler system where there is a shared key, you need to
 send the key using some other means where there is no reasonable chance
 that someone might intercept it. For lower-security needs, a telephone
 call might suffice, or meeting in person, or using a secure web server
 (e.g., with a one-time web link) as a means for key exchange.
-* Don't ever email passwords unless you use encryption like GnuPG to
+
+Don't ever email passwords unless you use encryption like GnuPG to
 protect the password. However, if you have this type of encryption set
 up with the recipient, then you could just use GnuPG to encrypt the file
 and dispense with the need to encrypt a password. That is the whole
@@ -528,23 +548,23 @@ point of public key cryptography systems like GnuPG.
 
 ==== What Encryption Isn't ====
 
-* Encryption is not some "magic pixie dust" that you can sprinkle on
-yourself to make you safe.
-* You have to use it intelligently along with all of the other
-recommended security practices.
-* Don't just rely on one tool like encryption to solve all of your
-problems.
+Encryption is not some "magic pixie dust" that you can sprinkle on yourself 
+to make you safe. You have to use it intelligently along with all of the other
+recommended security practices. Don't just rely on one tool like encryption 
+to solve all of your problems.
 
 === Insecurity ===
 
-* Nothing is completely secure. You have to determine what you are
+Nothing is completely secure. You have to determine what you are
 trying to protect and what you need to protect it from, then manage that
 risk in a practical way that you can afford.
-* A computer with an Internet connection is constantly under attack.
+
+A computer with an Internet connection is constantly under attack.
 Automated "bots" are constantly scanning all internet addresses,
 including the one your computer is using, to find open "ports", or
 network services.
-* These attackers are hoping that your system has a buggy or
+
+These attackers are hoping that your system has a buggy or
 misconfigured service that can be exploited to take control of your
 system and use it for finding more vulnerable systems, sending spam,
 phishing messages, malware, harvesting passwords, installing trojan
@@ -552,70 +572,81 @@ back-doors, etc.
 
 ==== System Compromises ====
 
-
-* Assume your system will be compromised and that your data will be
+Assume your system will be compromised and that your data will be
 accessed without authorization. With this attitude, you will be
 motivated to take realistic measures to protect your systems and data
 instead of simply relying on faith in some product or feature -- or
 just worrying without actually doing something about it.
-* This is where getting serious about backups comes in, especially
+
+This is where getting serious about backups comes in, especially
 encrypted, off-site backups allowing you to perform a "bare metal
 restore" -- reinstalling the entire system from a backup onto a new,
 fresh, blank disk.
-* You cannot reasonably expect to "remove" or "clean" a virus, trojan,
+
+You cannot reasonably expect to "remove" or "clean" a virus, trojan,
 or other malware since you don't know what else might have been
 installed once the system was compromised.
-* Even if the system appears to be working normally again, that does not
+
+Even if the system appears to be working normally again, that does not
 prove it is secure. There could still be a "back door" or "password
 sniffer", "key logger", etc.
-* Therefore, the best and arguably _only_ course of action after a
+
+Therefore, the best and arguably _only_ course of action after a
 compromise (and after any forensic measures have been taken) is to
 completely "redo" the system from scratch with a fresh install of all
 all software.
-* Forensic measures include any investigation of the system you might do
+
+Forensic measures include any investigation of the system you might do
 in order to find out what really happened or who might have compromised
-the system.
-* Usually this means removing any storage device, like a hard drive,
+the system. Usually this means removing any storage device, like a hard drive,
 immediately and making a copy of it for analysis, leaving the original
 drive unmodified and disconnected during analysis.
 
 ==== Email Insecurity ====
 
-* Email is not private or secure.
-* Even if your connection to the mail server is encrypted (scrambled) in
-transit, the email itself (in storage) is not, unless you took some very
-specific steps to encrypt the contents of the email.
-* Very few people actually encrypt the contents of their email messages,
+Email is not private or secure. Even if your connection to the mail 
+server is encrypted (scrambled) in transit, the email itself (in 
+storage) is not, unless you took some very specific steps to encrypt 
+the contents of the email.
+
+Very few people actually encrypt the contents of their email messages,
 know how to, know that it's possible, or even know what it means.
 Practically speaking, this is the realm of geeks, hackers, criminals,
 spies, and the military. But some ordinary people do occasionally
 encrypt attachments, such as Zip files and PDFs. Generally, most people
 don't.
-* In this discussion, we will assume that your email messages are not
+
+In this discussion, we will assume that your email messages are not
 encrypted (in storage). Even if they were, they would eventually be
 decrypted by the recipient, and you cannot control what happens to the
 message once that has happened.
-* Email messages are usually passed from server to server and router to
+
+Email messages are usually passed from server to server and router to
 router without any encryption (in transit). Even if the servers did use
 encryption to pass email, the message would be stored on the servers
 unencrypted.
-* Anyone with administrative access to the mail server, or has "hacked
-into" that server, could read your message.
-* Most of the efforts to secure email are spent on preventing spammers
-from abusing mail servers, not on the privacy of your email messages.
-* Once the message arrives at its destination, in the mailbox of the
+
+Anyone with administrative access to the mail server, or has "hacked
+into" that server, could read your message. Most of the efforts to 
+secure email are spent on preventing spammers from abusing mail servers, 
+not on the privacy of your email messages.
+
+Once the message arrives at its destination, in the mailbox of the
 intended recipient, on their computer, it can be read by anyone with
 administrative access to that computer. How much do you trust the
 recipient or the recipient's family members (or coworkers) to keep your
 "secrets"?
-* Therefore, think of an email like a "post card" and do not use email
+
+Therefore, think of an email like a "post card" and do not use email
 for sensitive communications.
-* Do not trust that the actual sender of a message is the address listed
+
+Do not trust that the actual sender of a message is the address listed
 in the "From" header. Email messages are easily and often forged. So, as
 stated earlier, do not trust links or attachments in emails and confirm
 with the sender if in doubt about any email or attachment which you may
 have received from them.
-* While it is possible to digitally (cryptographically) sign a file or
+
+While it is possible to digitally (cryptographically) sign a file or
 some text, as in an email, most people never do, know how to, etc., as
 with encryption. Here, again, a tool like GnuPG can be used, as well as
 other public key infrastructure (PKI) utilities. Many email clients have
