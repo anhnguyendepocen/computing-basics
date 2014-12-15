@@ -41,6 +41,8 @@ https://github.com/brianhigh/computing-basics/blob/master/LICENSE[LICENSE]
 for more information.
 https://creativecommons.org/licenses/by/4.0/[Creative Commons
 Attribution 4.0 International Public License].
+
+
 == In a hurry? Top Tips ==
 
 *_Backups!_*
