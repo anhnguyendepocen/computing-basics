@@ -21,14 +21,26 @@ either a student or a working professional.
 
 === Fact or Opinion? ===
 
-As we do not generally cite individual authors or reference sources, we should be clear that 
-the views expressed in this resource are mostly opinions. While we may link certain terms to 
-Wikipedia entries and other other online works, we do so only for your convenience. We hope 
-that you take the time to look up terms you do not understand or are unclear about. If you 
-disagree with an opinion or take issue with something expressed as fact, please share your 
-views through the "issues" link on our https://github.com/brianhigh/computing-basics[GitHub 
-site]. If you wish to have a more academic or scholarly treatment of this material, we encourage
-you to seek out textbooks, journal articles, and other works from academic authorities.
+This work is a compilation of opinions, freely offered by our contributors. See the next section for 
+details. Additional explanatory material has been added to provide context and to "fill in the 
+blanks" by summarizing widely understood, general computing concepts. 
+
+As we do not generally cite 
+individual contributors or reference sources, we should be clear that the views expressed in this 
+resource are essentially opinions. While we may link certain terms to Wikipedia entries and other other 
+online works, we do so only for your convenience. We hope that you take the time to look up terms 
+you do not understand or are unclear about. 
+
+If you disagree with an opinion or take issue with 
+something expressed as fact, please share your views through the "issues" link on our 
+https://github.com/brianhigh/computing-basics[GitHub site]. If you wish to have a more academic or 
+scholarly treatment of this material, we encourage you to seek out textbooks, journal articles, and 
+other works from academic authorities. 
+
+Think critically about any computing opinions or advice you read or receive, from any
+source. This information is provided for educational purposes only. Please see our
+https://github.com/brianhigh/computing-basics/blob/master/LICENSE[license
+and disclaimer] if you are unclear about this.
 
 === About the Authors ===
 
@@ -349,12 +361,6 @@ professionals. The University of Washington's
 http://ciso.washington.edu/resources/smart-computing/[Smart Computing]
 page was also consulted as a reference. You are encouraged to compare
 this list against the many available online.
-
-Think critically about any security advice you read or receive, from any
-source. This information is provided for educational purposes only.
-Please see our
-https://github.com/brianhigh/computing-basics/blob/master/LICENSE[license
-and disclaimer] if you are unclear about this.
 
 ==== Basic Security Essentials ====
 
