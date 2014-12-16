@@ -2,63 +2,78 @@
 
 == Introduction ==
 
-This resource contains a compilation of _basic_ things everyone should 
-know about computing, on various related topics. The intent is to provide 
-a relatively concise guide to the essentials of computing which will make 
-the most impact in improving your computing experience.
+This resource contains a compilation of _basic_ things everyone should
+know about computing, on various related topics. The intent is to
+provide a relatively concise guide to the essentials of computing which
+will make the most impact in improving your computing experience.
 
-These "must know" basics are in documented in a https://github.com/brianhigh/computing-basics/wiki[wiki] and are also compiled into an ebook (https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF] and https://github.com/brianhigh/computing-basics/raw/master/computing_basics.epub[EPUB]). Find the latest version of this document online at: https://github.com/brianhigh/computing-basics/wiki
+These "must know" basics are in documented in a
+https://github.com/brianhigh/computing-basics/wiki[wiki] and are also
+compiled into an ebook
+(https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF] and
+https://github.com/brianhigh/computing-basics/raw/master/computing_basics.epub[EPUB]). 
+Find the latest version of this document online at: 
+https://github.com/brianhigh/computing-basics/wiki
 
 === Intended Audience ===
 
-The target audience is "non-technical", smart people
-who know little or nothing about the technical details of computing, the
-Internet, security, etc. or how any of it actually "works".
+The target audience is "non-technical", smart people who know little or
+nothing about the technical details of computing, the Internet,
+security, etc. or how any of it actually "works".
 
-We assume that you know how to use a computer and it's accessories to use a web 
-browser and create basic office documents. We also assume you are a busy person, 
-either a student or a working professional.
+We assume that you know how to use a computer and it's accessories to
+use a web browser and create basic office documents. We also assume you
+are a busy person, either a student or a working professional.
 
 === Fact or Opinion? Just our 2¢ ===
 
-This work is a compilation of opinions, freely offered by our contributors. See the next section for 
-details. Additional explanatory material has been added to provide context and to "fill in the 
-blanks" by summarizing widely understood, general computing concepts. 
+This work is a compilation of opinions, freely offered by our
+contributors. See the next section for details. Additional explanatory
+material has been added to provide context and to "fill in the blanks"
+by summarizing widely understood, general computing concepts.
 
-As we do not generally cite 
-individual contributors or reference sources, we should be clear that the views expressed in this 
-resource are essentially opinions. While we may link certain terms to Wikipedia entries and other other 
-online works, we do so only for your convenience. We hope that you take the time to look up terms 
-you do not understand or are unclear about. 
+As we do not generally cite individual contributors or reference
+sources, we should be clear that the views expressed in this resource
+are essentially opinions. While we may link certain terms to Wikipedia
+entries and other other online works, we do so only for your
+convenience. We hope that you take the time to look up terms you do not
+understand or are unclear about.
 
-If you disagree with an opinion or take issue with 
-something expressed as fact, please share your views through the "issues" link on our 
-https://github.com/brianhigh/computing-basics[GitHub site]. If you wish to have a more academic or 
-scholarly treatment of this material, we encourage you to seek out textbooks, journal articles, and 
-other works from academic authorities. 
+If you disagree with an opinion or take issue with something expressed
+as fact, please share your views through the "issues" link on our
+https://github.com/brianhigh/computing-basics[GitHub site]. If you wish
+to have a more academic or scholarly treatment of this material, we
+encourage you to seek out textbooks, journal articles, and other works
+from academic or industry authorities.
 
-Think critically about any computing opinions or advice you read or receive, from any
-source. This information is provided for educational purposes only. Please see our
-https://github.com/brianhigh/computing-basics/blob/master/LICENSE[license
-and disclaimer] if you are unclear about this.
+Think critically about any computing opinions or advice you read or
+receive, from any source. This information is provided for educational
+purposes only. Please see our
+https://github.com/brianhigh/computing-basics/blob/master/LICENSE[
+license and disclaimer] if you are unclear about this.
 
 === About the Authors ===
 
-A https://github.com/brianhigh/computing-basics[community] of computer support 
-professionals, enthusiasts, and our readers have 
-contributed to this resource. Originally compiled by members of the University of 
-Washington's http://mailman13.u.washington.edu/mailman/listinfo/techsupport[TechSupport] 
-email list subscribers, this work continues to be maintained through community effort.
-Please share your feedback with the project through our online https://github.com/brianhigh/computing-basics[repository]. We will thankfully incorporate your contributions and list 
-you as a contributor in our https://github.com/brianhigh/computing-basics/blob/master/README.asciidoc[README file].
+A https://github.com/brianhigh/computing-basics[community] of computer
+support professionals, enthusiasts, and our readers have contributed to
+this resource. Originally compiled by members of the University of
+Washington's
+http://mailman13.u.washington.edu/mailman/listinfo/techsupport[
+TechSupport] email list subscribers, this work continues to be
+maintained through community effort. Please share your feedback with the
+project through our online
+https://github.com/brianhigh/computing-basics[repository]. We will
+thankfully incorporate your contributions and list you as a contributor
+in our
+https://github.com/brianhigh/computing-basics/blob/master/README.asciidoc[README file].
 
 === Copyright, License and Disclaimer ===
 
 Copyright © The https://github.com/brianhigh/computing-basics[Computing
 Basics Team]. This information is provided for educational purposes
 only. See
-https://github.com/brianhigh/computing-basics/blob/master/LICENSE[LICENSE]
-for more information.
+https://github.com/brianhigh/computing-basics/blob/master/LICENSE[
+LICENSE] for more information.
 https://creativecommons.org/licenses/by/4.0/[Creative Commons
 Attribution 4.0 International Public License].
 
@@ -113,6 +128,53 @@ ____
 _Use keyboard shortcuts to minimize point-n-click. Automate with
 scripting and plugins._
 ____
+
+== Hardware ==
+
+=== Computer ===
+
+Computer hardware consists of the computer itself, and any http://en.wikipedia.org/wiki/Peripheral[peripherals]. The computer, whether it is a http://en.wikipedia.org/wiki/Desktop_computer[desktop] or http://en.wikipedia.org/wiki/Laptop[laptop], contains the "brains" -- the http://en.wikipedia.org/wiki/Central_processing_unit[central processing unit (CPU)] -- and the components needed to feed it, such as a http://en.wikipedia.org/wiki/Power_supply[power supply], http://en.wikipedia.org/wiki/Random-access_memory[random access memory (RAM)], data communications http://en.wikipedia.org/wiki/Bus_%28computing%29[bus], and http://en.wikipedia.org/wiki/Input/output[input/output (I/O)] http://en.wikipedia.org/wiki/Computer_port_%28hardware%29[ports].
+
+=== Peripherals ===
+
+Peripherals include the devices external the computer which generally feed information into the computer or deliver it from the computer. Examples are keyboards, pointing devices (like "mice"), monitors (screens), speakers, etc. Many peripherals connect to the computer using a http://en.wikipedia.org/wiki/USB[Universal Serial Bus (USB)] connector. USB ports can vary in speed, so if speed matters, check your computer's specifications to make sure your ports meet your needs.
+
+=== Storage and Memory ===
+
+People often become confused when discussing computer storage and memory. The confusion arises because both of these terms are used for two very different components.
+
+==== Memory ====
+
+Main memory, also known as http://en.wikipedia.org/wiki/Computer_data_storage#Primary_storage[primary storage], is the temporary "short term memory" also called http://en.wikipedia.org/wiki/Volatile_memory[volatile memory]. This memory will only store information so long as the power stays on. Once you shut off the computer, any information which was in the volatile memory is lost. Memory is used to store data and applications that the computer is currently using or has "open". When you close programs and files you are done using, memory is released and becomes available for other uses. 
+
+So, memory really isn't _storage_ in the common sense, as whatever is there won't stay there very long. Instead people usually just call it _memory_. The most common type of main, volatile memory is http://en.wikipedia.org/wiki/Random-access_memory[random access memory (RAM)]. _Random access_ means you can access any particular block of memory you want _at random_ -- without having to sequentially search for it. RAM is installed in your computer packaged as http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a http://en.wikipedia.org/wiki/Memory_module[memory module] containing many chips.
+
+=== Storage ===
+
+A slower, but more permanent type of "long term memory" is called http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[secondary storage]. This is what people more often refer to simply as _storage_. Files are stored in "storage". Examples of storage devices are http://en.wikipedia.org/wiki/Hard_disk_drive[hard disk drives] and http://en.wikipedia.org/wiki/Solid-state_drive[solid state drives]. These devices are usually installed within the case of the computer and are meant to store information even when the computer is powered off.
+
+Some disk drives are used as external devices for _expanded storage_. Other examples of http://en.wikipedia.org/wiki/Computer_data_storage#Off-line_storage[off-line storage] are http://en.wikipedia.org/wiki/Flash_memory[flash memory] http://en.wikipedia.org/wiki/USB_flash_drive["sticks"] and http://en.wikipedia.org/wiki/Optical_disc_drive[optical disc drives], since these are often inserted only when needed.
+
+=== Avoiding Confusion ===
+
+When your computer gives you an error message say, "Out of memory", the computer probably means that it has filled your _volatile memory_, otherwise known as _RAM_. When this occurs, the entire computer will become very slow and may "freeze up" ("lock up") altogether. This may happen if you load too much data into a statistical package, spreadsheet program, or graphics application. It may also happen if your software has bugs which result in http://en.wikipedia.org/wiki/Memory_leak[memory leaks] -- errors which can consume inordinate amounts of memory without freeing it. You can free memory by closing applications, files, and "browser tabs" which don't need to be open right now. Releasing memory can make a huge impact in computer performance.
+
+Alternatively, if you receive a "disk full" error, this means that your hard disk (storage) is full. Sometimes the disk fills when an application is buggy and writes way more data to the disk than it should. More often, people will their hard drives with files over time, until eventually there is no more room. When this happens, software can no longer write to the storage and will usually either halt with an error message or keep trying causing strange delays. People usually free up storage space by removing old or temporary files no longer needed, or are backed up somewhere else. You may also use a software tool called a _disk cleaning utility_ or similar to automate this task somewhat.
+
+=== Virtual Memory ===
+
+So, you see that the causes and remedies of memory and storage errors are entirely different and help to show the differences between the two. However, now that we are clear on the distinction between memory and storage, we have to mention the one feature, called http://en.wikipedia.org/wiki/Virtual_memory[virtual memory], which blurs the lines. This is just a file or partition of storage which is used as an "overflow" area for volatile memory. If you fill up your memory, then the computer may start to "swap" data from memory to storage. This is very inefficient and therefore very slow. If you have a hard disk drive, you may even hear a lot of clicking, known as "thrashing" as the data is read from and written to the disk very heavily. The computer will usually become very slow when this happens. It is best to never need to use this virtual memory by making sure you have plenty of available volatile memory.
+
+=== Hardware Upgrades ===
+
+==== Memory ====
+
+As prices drop and capabilities increase, people are more likely to replace a device than to upgrade it. Also, given the rise in popularity of laptops (and notebooks, network, ultrabooks, etc.), and inclusion of more "on board" components in desktop computers, devices are less upgradable on the whole. So, what is the easiest and cheapest way to improve a computer? Start with RAM. It is relatively inexpensive to "max out" the RAM in a device by filling all available "slots" with memory modules. This is usually quick and easy for the owner of the device to do, as the most manufacturers still provide easy access to the memory slots. 
+
+==== Storage ====
+
+The other upgrade which you may also consider is to replace the hard drive with a bigger one (for more storage) or a solid state drive (SSD) for faster performance. This is can be technically challenging for most people, not so much for the physical replacement, but for the work required to back up the old drive, and prepare the new drive for use. As you can imagine, this procedure also carries more risk to your data. For this reason, people are more likely to use an external drive if they need more storage, or even use an online storage service.
+
 
 == Networking ==
 
@@ -1123,15 +1185,16 @@ their many graphical database management tools. While they do have a
 somewhat higher learning curve, their ability to scale means, you don't
 have to retool your work flow as your needs grow.
 
-=== "Up-front" Data Planning Advice ===
+=== "Up-front" Data Planning ===
 
-* Determine up-front how important the data will be and treat it
+Determine _up-front_ how important the data will be and treat it
 accordingly. Take backups seriously and design and implement the best
 automated backup system you can afford, then regularly audit and test
 backups to make sure you can restore from them. Without good backups,
 you are one small mishap away from major disaster. Who wants to live
 like that?
-* Determine up-front how the data will be accessed. Strongly consider
+
+Determine _up-front_ how the data will be accessed. Strongly consider
 formatting your data for easy automated processing by using simple
 tabular structures of rows and columns in common, flexible file formats.
 Realize that you may want to collaborate with others and consider
@@ -1142,28 +1205,32 @@ version will overwrite the whole file. Manually merging changes can be
 extremely difficult and error-prone. Linking separate files together
 properly can be challenging without specialized tools like relational
 databases.
-* Determine up-front how long the data will be around, and what the
+
+Determine _up-front_ how long the data will be around, and what the
 plans will be when it's no longer useful. If the plan is to create
 500,000 files/week for a decade, do the math and figure out if it's
 practical to store and analyze these files before you're in year 8 and
 things start falling apart. (True story).
+
 
 == Buzzwords ==
 
 The technology world suffers from excessive use of buzzwords (words
 associated with hype, or "buzz"). Someone coins a term to describe a
 looming problem or seemingly magical solution. The term or phrase gains
-momentum with media exposure, and soon you see it everywhere. Yet,
-often, people are unsure about what the term actually means or if it
+momentum with media exposure, and soon you see it everywhere. 
+
+Yet, often, people are unsure about what the term actually means or if it
 really matters. Relentless exposure to the ill-defined hype results in
-the modern malady known as _buzzword fatigue_.
+the modern malady known as _buzzword fatigue_. We will help clarify a
+few of them by peering through the clouds.
 
 === Cloud Computing ===
 
 The notion of "the cloud" in computing comes from the use of a cloud
-symbol in network diagrams. The cloud represented the "rest of the
-network" or the part of the network lying outside of your organization.
-Usually, this means the Internet. So,
+symbol in network diagrams. The cloud symbol represents the "rest of the
+network" or the part of the network lying outside of your organization or 
+your network diagram. Usually, this "outside" means the Internet. So,
 http://en.wikipedia.org/wiki/Cloud_computing[cloud computing] is using
 servers outside of your organization, often over the Internet. As you
 may realize, this is not really that new, but more of a increasing
@@ -1186,7 +1253,7 @@ isn't working the way you expect it to work. You also have to depend on
 your network connection to the cloud services and the Internet
 infrastructure that your connection relies upon.
 
-Some people even consider "the cloud" to simply be another name for "the
+Some people even consider "the cloud" as simply another name for "the
 network" or "not my computer". In any case, the notion of _cloud
 computing_ involves some degree of "outsourcing" of computing resources
 and accessing those resources through the network.
