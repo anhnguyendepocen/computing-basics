@@ -183,7 +183,7 @@ People often become confused when discussing computer storage and
 memory. The confusion arises because both of these terms are used for
 two very different components.
 
-==== Memory ====
+==== Memory (RAM) ====
 
 Main memory, also known as
 http://en.wikipedia.org/wiki/Computer_data_storage#Primary_storage[
@@ -207,7 +207,7 @@ http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a
 http://en.wikipedia.org/wiki/Memory_module[memory module] containing
 many chips.
 
-==== Storage ====
+==== Storage (Disk) ====
 
 A slower, but more permanent type of "long term memory" is called
 http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[
@@ -227,6 +227,9 @@ http://en.wikipedia.org/wiki/Optical_disc_drive[optical disc drives],
 since these are often inserted only when needed.
 
 === Avoid Confusion ===
+
+* *_Memory_* = RAM = _short term_ = faster = "working memory" = _close_ stuff to free it up
+* *_Storage_* = drives = _long term_ = slower = "file storage" = _delete_ stuff to free it up
 
 When your computer gives you an error message say, "Out of memory", the
 computer probably means that it has filled your _volatile memory_,
@@ -253,13 +256,17 @@ _disk cleaning utility_ or similar to automate this task somewhat.
 
 === Virtual Memory ===
 
-So, you see that the causes and remedies of memory and storage errors
+You should now see that the causes and remedies of memory and storage errors
 are entirely separate and help to clarify the differences between the
-two. However, now that we are clear on the distinction between memory
-and storage, we have to mention the one feature, called
+two. 
+
+However, now that we are clear on the distinction between memory
+and storage, we have to mention the one feature, just to confuse you, called
 http://en.wikipedia.org/wiki/Virtual_memory[virtual memory], which blurs
 the lines. This is just a file or partition of storage which is used as
-an "overflow" area for volatile memory. If you fill up your memory, then
+an "overflow" area for volatile memory. 
+
+If you fill up your memory, then
 the computer may start to "swap" data from memory to storage. This is
 very inefficient and therefore very slow. If you have a hard disk drive,
 you may even hear a lot of clicking, known as "thrashing" as the data is
