@@ -146,7 +146,8 @@ http://en.wikipedia.org/wiki/Bus_%28computing%29[bus], and
 http://en.wikipedia.org/wiki/Input/output[input/output (I/O)]
 http://en.wikipedia.org/wiki/Computer_port_%28hardware%29[ports].
 
-The CPU, as the "brains" of the computer, is where the information is
+The CPU, an http://en.wikipedia.org/wiki/Integrated_circuit[integrated 
+circuit] (also called a "computer chip"), is where the information is
 processed and where calculations are performed. The computer may have
 more than one CPU and each CPU may have more than one
 http://en.wikipedia.org/wiki/Multi-core_processor[CPU core]. Since each
