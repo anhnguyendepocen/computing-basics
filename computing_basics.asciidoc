@@ -1216,7 +1216,7 @@ your data.
 if something isn't working the way you expect it to work. 
 
 * *_Availability_*: You have to depend on your network connection 
-to the cloud service. This effects both reliability and performance.
+to the cloud service, in terms of both reliability and performance.
 
 Some people consider "the cloud" as just another name for "the
 network" or "not my computer". In any case, the notion of _cloud
