@@ -170,7 +170,7 @@ a http://en.wikipedia.org/wiki/USB[Universal Serial Bus (USB)]
 connector. USB ports can vary in speed, so if speed matters, check your
 computer's specifications to make sure your ports meet your needs.
 
-=== Storage and Memory ===
+=== Memory and Storage ===
 
 People often become confused when discussing computer storage and
 memory. The confusion arises because both of these terms are used for
@@ -200,7 +200,7 @@ http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a
 http://en.wikipedia.org/wiki/Memory_module[memory module] containing
 many chips.
 
-=== Storage ===
+==== Storage ====
 
 A slower, but more permanent type of "long term memory" is called
 http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[
