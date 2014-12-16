@@ -133,47 +133,159 @@ ____
 
 === Computer ===
 
-Computer hardware consists of the computer itself, and any http://en.wikipedia.org/wiki/Peripheral[peripherals]. The computer, whether it is a http://en.wikipedia.org/wiki/Desktop_computer[desktop] or http://en.wikipedia.org/wiki/Laptop[laptop], contains the "brains" -- the http://en.wikipedia.org/wiki/Central_processing_unit[central processing unit (CPU)] -- and the components needed to feed it, such as a http://en.wikipedia.org/wiki/Power_supply[power supply], http://en.wikipedia.org/wiki/Random-access_memory[random access memory (RAM)], data communications http://en.wikipedia.org/wiki/Bus_%28computing%29[bus], and http://en.wikipedia.org/wiki/Input/output[input/output (I/O)] http://en.wikipedia.org/wiki/Computer_port_%28hardware%29[ports].
+Computer hardware consists of the computer itself, and any
+http://en.wikipedia.org/wiki/Peripheral[peripherals]. The computer,
+whether it is a http://en.wikipedia.org/wiki/Desktop_computer[desktop]
+or http://en.wikipedia.org/wiki/Laptop[laptop], contains the "brains" --
+the http://en.wikipedia.org/wiki/Central_processing_unit[central
+processing unit (CPU)] -- and the components needed to feed it, such as
+a http://en.wikipedia.org/wiki/Power_supply[power supply],
+http://en.wikipedia.org/wiki/Random-access_memory[random access memory
+(RAM)], data communications
+http://en.wikipedia.org/wiki/Bus_%28computing%29[bus], and
+http://en.wikipedia.org/wiki/Input/output[input/output (I/O)]
+http://en.wikipedia.org/wiki/Computer_port_%28hardware%29[ports].
+
+The CPU, as the "brains" of the computer, is where the information is
+processed and where calculations are performed. The computer may have
+more than one CPU and each CPU may have more than one
+http://en.wikipedia.org/wiki/Multi-core_processor[CPU core]. Since each
+core is able to perform one task at a time (per clock
+http://en.wikipedia.org/wiki/Instruction_cycle[cycle]), having more
+cores allows your computer to perform tasks in
+http://en.wikipedia.org/wiki/Parallel_processing[parallel] (at the same
+time). As circuitry gets smaller, CPU designers are able to fit more
+cores in a CPU. A computer may also have a
+http://en.wikipedia.org/wiki/Graphics_processing_unit[graphics
+processing unit (GPU)] to render graphics such as video animation and 
+perform other delegated tasks.
 
 === Peripherals ===
 
-Peripherals include the devices external the computer which generally feed information into the computer or deliver it from the computer. Examples are keyboards, pointing devices (like "mice"), monitors (screens), speakers, etc. Many peripherals connect to the computer using a http://en.wikipedia.org/wiki/USB[Universal Serial Bus (USB)] connector. USB ports can vary in speed, so if speed matters, check your computer's specifications to make sure your ports meet your needs.
+Peripherals include the devices external the computer which generally
+feed information into the computer or deliver it from the computer.
+Examples are keyboards, pointing devices (like "mice"), monitors
+(screens), speakers, etc. Many peripherals connect to the computer using
+a http://en.wikipedia.org/wiki/USB[Universal Serial Bus (USB)]
+connector. USB ports can vary in speed, so if speed matters, check your
+computer's specifications to make sure your ports meet your needs.
 
 === Storage and Memory ===
 
-People often become confused when discussing computer storage and memory. The confusion arises because both of these terms are used for two very different components.
+People often become confused when discussing computer storage and
+memory. The confusion arises because both of these terms are used for
+two very different components.
 
 ==== Memory ====
 
-Main memory, also known as http://en.wikipedia.org/wiki/Computer_data_storage#Primary_storage[primary storage], is the temporary "short term memory" also called http://en.wikipedia.org/wiki/Volatile_memory[volatile memory]. This memory will only store information so long as the power stays on. Once you shut off the computer, any information which was in the volatile memory is lost. Memory is used to store data and applications that the computer is currently using or has "open". When you close programs and files you are done using, memory is released and becomes available for other uses. 
+Main memory, also known as
+http://en.wikipedia.org/wiki/Computer_data_storage#Primary_storage[
+primary storage], is the temporary "short term memory" also called
+http://en.wikipedia.org/wiki/Volatile_memory[volatile memory]. This
+memory will only store information so long as the power stays on. Once
+you shut off the computer, any information which was in the volatile
+memory is lost. Memory is used to store data and applications that the
+computer is currently using or has "open". When you close programs and
+files you are done using, memory is released and becomes available for
+other uses.
 
-So, memory really isn't _storage_ in the common sense, as whatever is there won't stay there very long. Instead people usually just call it _memory_. The most common type of main, volatile memory is http://en.wikipedia.org/wiki/Random-access_memory[random access memory (RAM)]. _Random access_ means you can access any particular block of memory you want _at random_ -- without having to sequentially search for it. RAM is installed in your computer packaged as http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a http://en.wikipedia.org/wiki/Memory_module[memory module] containing many chips.
+So, memory really isn't _storage_ in the common sense, as whatever is
+there won't stay there very long. Instead people usually just call it
+_memory_. The most common type of main, volatile memory is
+http://en.wikipedia.org/wiki/Random-access_memory[random access memory
+(RAM)]. _Random access_ means you can access any particular block of
+memory you want _at random_ -- without having to sequentially search for
+it. RAM is installed in your computer packaged as
+http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a
+http://en.wikipedia.org/wiki/Memory_module[memory module] containing
+many chips.
 
 === Storage ===
 
-A slower, but more permanent type of "long term memory" is called http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[secondary storage]. This is what people more often refer to simply as _storage_. Files are stored in "storage". Examples of storage devices are http://en.wikipedia.org/wiki/Hard_disk_drive[hard disk drives] and http://en.wikipedia.org/wiki/Solid-state_drive[solid state drives]. These devices are usually installed within the case of the computer and are meant to store information even when the computer is powered off.
+A slower, but more permanent type of "long term memory" is called
+http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[
+secondary storage]. This is what people more often refer to simply as
+_storage_. Files are stored in "storage". Examples of storage devices
+are http://en.wikipedia.org/wiki/Hard_disk_drive[hard disk drives] and
+http://en.wikipedia.org/wiki/Solid-state_drive[solid state drives].
+These devices are usually installed within the case of the computer and
+are meant to store information even when the computer is powered off.
 
-Some disk drives are used as external devices for _expanded storage_. Other examples of http://en.wikipedia.org/wiki/Computer_data_storage#Off-line_storage[off-line storage] are http://en.wikipedia.org/wiki/Flash_memory[flash memory] http://en.wikipedia.org/wiki/USB_flash_drive["sticks"] and http://en.wikipedia.org/wiki/Optical_disc_drive[optical disc drives], since these are often inserted only when needed.
+Some disk drives are used as external devices for _expanded storage_.
+Other examples of
+http://en.wikipedia.org/wiki/Computer_data_storage#Off-line_storage[off-
+line storage] are http://en.wikipedia.org/wiki/Flash_memory[flash
+memory] http://en.wikipedia.org/wiki/USB_flash_drive["sticks"] and
+http://en.wikipedia.org/wiki/Optical_disc_drive[optical disc drives],
+since these are often inserted only when needed.
 
-=== Avoiding Confusion ===
+=== Avoid Confusion ===
 
-When your computer gives you an error message say, "Out of memory", the computer probably means that it has filled your _volatile memory_, otherwise known as _RAM_. When this occurs, the entire computer will become very slow and may "freeze up" ("lock up") altogether. This may happen if you load too much data into a statistical package, spreadsheet program, or graphics application. It may also happen if your software has bugs which result in http://en.wikipedia.org/wiki/Memory_leak[memory leaks] -- errors which can consume inordinate amounts of memory without freeing it. You can free memory by closing applications, files, and "browser tabs" which don't need to be open right now. Releasing memory can make a huge impact in computer performance.
+When your computer gives you an error message say, "Out of memory", the
+computer probably means that it has filled your _volatile memory_,
+otherwise known as _RAM_. When this occurs, the entire computer will
+become very slow and may "freeze up" ("lock up") altogether. This may
+happen if you load too much data into a statistical package, spreadsheet
+program, or graphics application. It may also happen if your software
+has bugs which result in http://en.wikipedia.org/wiki/Memory_leak[memory
+leaks] -- errors which can consume inordinate amounts of memory without
+freeing it. You can free memory by closing applications, files, and
+"browser tabs" which don't need to be open right now. Releasing memory
+can make a huge impact in computer performance.
 
-Alternatively, if you receive a "disk full" error, this means that your hard disk (storage) is full. Sometimes the disk fills when an application is buggy and writes way more data to the disk than it should. More often, people will their hard drives with files over time, until eventually there is no more room. When this happens, software can no longer write to the storage and will usually either halt with an error message or keep trying causing strange delays. People usually free up storage space by removing old or temporary files no longer needed, or are backed up somewhere else. You may also use a software tool called a _disk cleaning utility_ or similar to automate this task somewhat.
+Alternatively, if you receive a "disk full" error, this means that your
+hard disk (storage) is full. Sometimes the disk fills when an
+application is buggy and writes way more data to the disk than it
+should. More often, people will their hard drives with files over time,
+until eventually there is no more room. When this happens, software can
+no longer write to the storage and will usually either halt with an
+error message or keep trying causing strange delays. People usually free
+up storage space by removing old or temporary files no longer needed, or
+are backed up somewhere else. You may also use a software tool called a
+_disk cleaning utility_ or similar to automate this task somewhat.
 
 === Virtual Memory ===
 
-So, you see that the causes and remedies of memory and storage errors are entirely different and help to show the differences between the two. However, now that we are clear on the distinction between memory and storage, we have to mention the one feature, called http://en.wikipedia.org/wiki/Virtual_memory[virtual memory], which blurs the lines. This is just a file or partition of storage which is used as an "overflow" area for volatile memory. If you fill up your memory, then the computer may start to "swap" data from memory to storage. This is very inefficient and therefore very slow. If you have a hard disk drive, you may even hear a lot of clicking, known as "thrashing" as the data is read from and written to the disk very heavily. The computer will usually become very slow when this happens. It is best to never need to use this virtual memory by making sure you have plenty of available volatile memory.
+So, you see that the causes and remedies of memory and storage errors
+are entirely separate and help to clarify the differences between the
+two. However, now that we are clear on the distinction between memory
+and storage, we have to mention the one feature, called
+http://en.wikipedia.org/wiki/Virtual_memory[virtual memory], which blurs
+the lines. This is just a file or partition of storage which is used as
+an "overflow" area for volatile memory. If you fill up your memory, then
+the computer may start to "swap" data from memory to storage. This is
+very inefficient and therefore very slow. If you have a hard disk drive,
+you may even hear a lot of clicking, known as "thrashing" as the data is
+read from and written to the disk very heavily. The computer will
+usually become very slow when this happens. It is best to never need to
+use this virtual memory by making sure you have plenty of available
+volatile memory.
 
 === Hardware Upgrades ===
 
 ==== Memory ====
 
-As prices drop and capabilities increase, people are more likely to replace a device than to upgrade it. Also, given the rise in popularity of laptops (and notebooks, network, ultrabooks, etc.), and inclusion of more "on board" components in desktop computers, devices are less upgradable on the whole. So, what is the easiest and cheapest way to improve a computer? Start with RAM. It is relatively inexpensive to "max out" the RAM in a device by filling all available "slots" with memory modules. This is usually quick and easy for the owner of the device to do, as the most manufacturers still provide easy access to the memory slots. 
+As prices drop and capabilities increase, people are more likely to
+replace a device than to upgrade it. Also, given the rise in popularity
+of laptops (and notebooks, network, ultrabooks, etc.), and inclusion of
+more "on board" components in desktop computers, devices are less
+upgradable on the whole. So, what is the easiest and cheapest way to
+improve a computer? Start with RAM. It is relatively inexpensive to "max
+out" the RAM in a device by filling all available "slots" with memory
+modules. This is usually quick and easy for the owner of the device to
+do, as the most manufacturers still provide easy access to the memory
+slots.
 
 ==== Storage ====
 
-The other upgrade which you may also consider is to replace the hard drive with a bigger one (for more storage) or a solid state drive (SSD) for faster performance. This is can be technically challenging for most people, not so much for the physical replacement, but for the work required to back up the old drive, and prepare the new drive for use. As you can imagine, this procedure also carries more risk to your data. For this reason, people are more likely to use an external drive if they need more storage, or even use an online storage service.
+The other common upgrade to consider is to replace the hard drive with
+one having a greater storage capacity ("space") or a solid state drive
+(SSD) for faster performance. This is can be technically challenging for
+most people, not so much for the physical replacement, but for the work
+required to back up the old drive, and prepare the new drive for use. As
+you can imagine, this procedure also carries more risk to your data. For
+this reason, people are more likely to use an external drive if they
+need more storage, or even use an online storage service.
 
 
 == Networking ==
