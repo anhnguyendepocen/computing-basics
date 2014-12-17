@@ -21,30 +21,33 @@ The target audience is "non-technical", smart people who know little or
 nothing about the technical details of computing, the Internet,
 security, etc. or how any of it actually "works".
 
-We assume that you know how to use a computer and it's accessories to
-use a web browser and create basic office documents. We also assume you
-are a busy person, either a student or a working professional.
+We assume that you know how to use a computer and it's accessories, how to
+use a web browser and how to create basic office documents. We also assume you
+are a busy person, either a student, a working professional or otherwise occupied.
 
-=== Fact or Opinion? Just our 2¢ ===
+=== Just our 2¢ ===
 
-This work is a compilation of opinions, freely offered by our
-contributors. See the next section for details. Additional explanatory
-material has been added to provide context and to "fill in the blanks"
-by summarizing widely understood, general computing concepts.
+This work is a compilation of opinions, often in the form of suggestions  
+phrased like, "you should". Additional explanatory material has been added 
+to provide context and to "fill in the blanks" by summarizing generally understood 
+computing concepts. This material is provided by our contributors, based 
+primarily on their own experience of providing computing "tech" support and 
+accumulating computing knowledge over the years.
 
-As we do not generally cite individual contributors or reference
+As we do not typically cite individual contributors or reference their specific 
 sources, we should be clear that the views expressed in this resource
-are essentially opinions. While we may link certain terms to Wikipedia
-entries and other other online works, we do so only for your
-convenience. We hope that you take the time to look up terms you do not
-understand or are unclear about.
+are essentially "just our our 2¢". While we may link certain terms to 
+https://www.wikipedia.org/[Wikipedia] 
+articles and other other online works, we do so only for your convenience. We 
+hope that you take the time to look up terms you do not understand or are unclear 
+about.
 
 If you disagree with an opinion or take issue with something expressed
 as fact, please share your views through the "issues" link on our
 https://github.com/brianhigh/computing-basics[GitHub site]. If you wish
 to have a more academic or scholarly treatment of this material, we
 encourage you to seek out textbooks, journal articles, and other works
-from academic or industry authorities.
+authored by trusted and proven authorities.
 
 Think critically about any computing opinions or advice you read or
 receive, from any source. This information is provided for educational
@@ -139,10 +142,11 @@ ____
 
 === Computer ===
 
-Computer hardware consists of the computer itself, and any
-http://en.wikipedia.org/wiki/Peripheral[peripherals]. The computer,
+Computer hardware consists of the computer itself and any
+http://en.wikipedia.org/wiki/Peripheral[peripherals] (the accessories 
+used with it). The computer,
 whether it is a http://en.wikipedia.org/wiki/Desktop_computer[desktop]
-or http://en.wikipedia.org/wiki/Laptop[laptop], contains the "brains" --
+or a http://en.wikipedia.org/wiki/Laptop[laptop], contains the "brains" --
 the http://en.wikipedia.org/wiki/Central_processing_unit[central
 processing unit (CPU)] -- and the components needed to feed it, such as
 a http://en.wikipedia.org/wiki/Power_supply[power supply],
@@ -167,6 +171,19 @@ http://en.wikipedia.org/wiki/Graphics_processing_unit[graphics
 processing unit (GPU)] to render graphics such as video animation and 
 perform other delegated tasks.
 
+CPUs and GPUs get hot and so are usually mated with a heat sink and a fan, 
+all clamped together in one unit. The hotter the chip, the greater the need 
+for cooling. Some CPUs offer http://en.wikipedia.org/wiki/Frequency_scaling[frequency scaling] 
+which allows the chip to speed up as needed. As it speeds up, it heats up, and 
+this may trigger the fan to increase speed (and noise) to keep up the cooling. 
+
+If your computer "revs-up" to make a loud vacuum-cleaner noise, this is why. This 
+increasing of CPU and fan speed is in response to greater processing, which is 
+caused by a program that is doing a lot of work, like rendering video, or getting 
+stuck in a buggy processing loop. Sometimes the computer becomes unresponsive when 
+the CPU load has become so high that all processing comes to a halt, the computer "locks up", 
+and the only recourse is to physically shut down the computer and restart it.
+
 === Peripherals ===
 
 Peripherals include the devices external the computer which generally
@@ -174,14 +191,32 @@ feed information into the computer or deliver it from the computer.
 Examples are keyboards, pointing devices (like "mice"), monitors
 (screens), speakers, etc. Many peripherals connect to the computer using
 a http://en.wikipedia.org/wiki/USB[Universal Serial Bus (USB)]
-connector. USB ports can vary in speed, so if speed matters, check your
-computer's specifications to make sure your ports meet your needs.
+connector. 
+
+USB ports can vary in speed, so if speed matters, check your
+computer's specifications to make sure your ports meet your needs. For example, 
+if you have a http://en.wikipedia.org/wiki/USB#USB_3.0[USB 3.0] device, you 
+would want to plug it into a USB 3.0 port on 
+your computer, usually colored blue (matching the plug). While a USB 2.0 
+port (colored black or white) will work, you will not get the extra 
+http://en.wikipedia.org/wiki/List_of_device_bit_rates#Peripheral[speed] 
+advantage of USB 3.0 if you use a USB 2.0 port.
+
+Video connections also vary. While the connector shape will clearly 
+indicate which port to use, you may need an adapter to connect the computer with 
+the screen or projector. There are a lot of 
+http://en.wikipedia.org/wiki/List_of_video_connectors[different types of video connectors] 
+in use, but basically they come down to three of the most popular: VGA, DVI, and HDMI. 
+Apple devices often use http://support.apple.com/en-us/HT3235[miniature video connectors], 
+which means you need to carry around 
+your adapters with you if you plan to connect to a device with a different connector.
 
 === Memory and Storage ===
 
 People often become confused when discussing computer storage and
 memory. The confusion arises because both of these terms are used for
-two very different components.
+two very different components. Becoming clear on these terms will help make a 
+huge difference in your ability to maximize your use of your computer.
 
 ==== Memory (RAM) ====
 
@@ -200,19 +235,26 @@ So, memory really isn't _storage_ in the common sense, as whatever is
 there won't stay there very long. Instead people usually just call it
 _memory_. The most common type of main, volatile memory is
 http://en.wikipedia.org/wiki/Random-access_memory[random access memory
-(RAM)]. _Random access_ means you can access any particular block of
+(RAM)]. _Random access_ means you can, in principle, access any particular block of
 memory you want _at random_ -- without having to sequentially search for
-it. RAM is installed in your computer packaged as
+it. RAM is installed in your computer packaged as 
 http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a
 http://en.wikipedia.org/wiki/Memory_module[memory module] containing
 many chips.
 
-==== Storage (Disk) ====
+==== Storage (Folders) ====
 
 A slower, but more permanent type of "long term memory" is called
 http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[
 secondary storage]. This is what people more often refer to simply as
-_storage_. Files are stored in "storage". Examples of storage devices
+_storage_. Files are stored in folders, or more generally, "storage". 
+
+The folders are logical containers which are physically implemented in 
+storage devices. These may be connected to your local computer or may 
+reside in a server on the network. Network storage containers may also 
+be referred to as "shares", "volumes", "exports", or "network drives". 
+
+Examples of physical storage devices
 are http://en.wikipedia.org/wiki/Hard_disk_drive[hard disk drives] and
 http://en.wikipedia.org/wiki/Solid-state_drive[solid state drives].
 These devices are usually installed within the case of the computer and
@@ -229,7 +271,7 @@ since these are often inserted only when needed.
 === Avoid Confusion ===
 
 * *_Memory_* = RAM = _short term_ = faster = "working memory" = _close_ stuff to free it up
-* *_Storage_* = drives = _long term_ = slower = "file storage" = _delete_ stuff to free it up
+* *_Storage_* = folders = _long term_ = slower = "file storage" = _delete_ files to free it up
 
 When your computer gives you an error message say, "Out of memory", the
 computer probably means that it has filled your _volatile memory_,
@@ -244,10 +286,11 @@ freeing it. You can free memory by closing applications, files, and
 can make a huge impact in computer performance.
 
 Alternatively, if you receive a "disk full" error, this means that your
-hard disk (storage) is full. Sometimes the disk fills when an
+storage (hard disk) is full -- you have exceeded its capacity or your 
+storage quota. Sometimes your available storage space fills when an
 application is buggy and writes way more data to the disk than it
-should. More often, people will their hard drives with files over time,
-until eventually there is no more room. When this happens, software can
+should. More often, people will fill their hard drives with files over time,
+until eventually there is no more room left. When this happens, software can
 no longer write to the storage and will usually either halt with an
 error message or keep trying causing strange delays. People usually free
 up storage space by removing old or temporary files no longer needed, or
@@ -256,12 +299,12 @@ _disk cleaning utility_ or similar to automate this task somewhat.
 
 === Virtual Memory ===
 
-You should now see that the causes and remedies of memory and storage errors
+You should see that the causes and remedies of memory and storage errors
 are entirely separate and help to clarify the differences between the
 two. 
 
-However, now that we are clear on the distinction between memory
-and storage, we have to mention the one feature, just to confuse you, called
+However, while we are now clear on the distinction between memory
+and storage, we have to mention the one feature, called
 http://en.wikipedia.org/wiki/Virtual_memory[virtual memory], which blurs
 the lines. This is just a file or partition of storage which is used as
 an "overflow" area for volatile memory. 
