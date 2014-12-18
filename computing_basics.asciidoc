@@ -27,15 +27,18 @@ are a busy person, either a student, a working professional or otherwise occupie
 
 === Just our 2¢ ===
 
-This work is a compilation of opinions, often in the form of suggestions  
-phrased like, "you should". Additional explanatory material has been added 
+This work is a compilation of opinions, offered in the form of suggestions  
+phrased like, "_you should_". Additional explanatory material has been added 
 to provide context and to "fill in the blanks" by summarizing generally understood 
 computing concepts. This material is provided by our contributors, based 
 primarily on their own experience of providing computing "tech" support and 
-accumulating computing knowledge over the years.
+accumulating computing knowledge over the years as "IT" people. This is essentially 
+http://en.wiktionary.org/wiki/off_the_top_of_one%27s_head[top of 
+the head] content, compiled into a http://en.wikipedia.org/wiki/Wiki[wiki] format, 
+organized by general topics.
 
-As we do not typically cite individual contributors or reference their specific 
-sources, we should be clear that the views expressed in this resource
+As we do not typically cite individual contributors or reference the specific 
+sources of their contributions, we should be clear that the views expressed in this resource
 are essentially "just our our 2¢". While we may link certain terms to 
 https://www.wikipedia.org/[Wikipedia] 
 articles and other other online works, we do so only for your convenience. We 
@@ -47,7 +50,7 @@ as fact, please share your views through the "issues" link on our
 https://github.com/brianhigh/computing-basics[GitHub site]. If you wish
 to have a more academic or scholarly treatment of this material, we
 encourage you to seek out textbooks, journal articles, and other works
-authored by trusted and proven authorities.
+produced by trusted and proven authorities.
 
 Think critically about any computing opinions or advice you read or
 receive, from any source. This information is provided for educational
@@ -92,8 +95,8 @@ ____
 *_Be resourceful!_*
 
 ____
-_Search the 'net, read the docs, experiment (with caution), and ask for
-help (if needed)._
+_Search the 'net, read the docs, experiment (cautiously), and ask for
+help (as needed)._
 ____
 
 *_Think ahead!_*
@@ -107,7 +110,7 @@ ____
 
 ____
 _Check your security and privacy settings. Be careful what you download
-or post online._
+and post online._
 ____
 
 *_Get organized!_*
@@ -124,11 +127,10 @@ _Store shared files on a secure server and minimize passing copies
 around (by email)._
 ____
 
-*_Save time and effort!_*
+*_Be efficient!_*
 
 ____
-_Use keyboard shortcuts to minimize point-n-click. Automate with
-scripting and plugins._
+_Use keyboard shortcuts to minimize point-n-click. Automate with scripts and plugins._
 ____
 
 *_Make it snappy!_*
@@ -137,6 +139,10 @@ ____
 _Speed up your computer by closing idle apps and installing more memory (RAM)._
 ____
 
+*_Keep it simple!_*
+____
+_Don't go overboard on technology. Sometimes it's better just to talk in-person._
+____
 
 == Hardware ==
 
@@ -166,15 +172,38 @@ http://en.wikipedia.org/wiki/Instruction_cycle[cycle]), having more
 cores allows your computer to perform tasks in
 http://en.wikipedia.org/wiki/Parallel_processing[parallel] (at the same
 time). As circuitry gets smaller, CPU designers are able to fit more
-cores in a CPU. A computer may also have a
+cores in a CPU. A recent advance called 
+http://en.wikipedia.org/wiki/Hyper-threading[hyper-threading] allows  
+a single core to act as two logical cores. A computer may also have a
 http://en.wikipedia.org/wiki/Graphics_processing_unit[graphics
 processing unit (GPU)] to render graphics such as video animation and 
 perform other delegated tasks.
 
-CPUs and GPUs get hot and so are usually mated with a heat sink and a fan, 
+==== Graphics Processing ====
+
+In most computers, the graphics processing, video decoding, etc. are
+processed using integrated graphics. As the name implies, the 
+http://en.wikipedia.org/wiki/Graphics_processing_unit[graphics
+processor (GPU)] is integrated (inside of) the CPU. For most desktop
+applications, this is more than sufficient. However, some applications,
+such as video conversion, can benefit from a dedicated http://en.wikipedia.org/wiki/Video_card[graphics card].
+
+Aside from graphics processing, the GPU can perform other non-video
+tasks. This is known as 
+http://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units[GPU 
+Computing]. Typical applications are large
+scale data comparison, computation, and 
+http://en.wikipedia.org/wiki/Pattern_recognition[pattern recognition]. However, to
+take advantage of GPU Computing, you need an application that supports
+it, along with a compatible, dedicated graphics card.
+
+==== CPU Cooling ====
+
+CPUs and GPUs get hot and so are mated with a heat sink, and often a fan as well, 
 all clamped together in one unit. The hotter the chip, the greater the need 
 for cooling. Some CPUs offer http://en.wikipedia.org/wiki/Frequency_scaling[frequency scaling] 
-which allows the chip to speed up as needed. As it speeds up, it heats up, and 
+which allows the chip to speed up as needed. As it speeds up, it 
+http://www.intel.com/support/processors/sb/CS-029426.htm[heats up], and 
 this may trigger the fan to increase speed (and noise) to keep up the cooling. 
 
 If your computer "revs-up" to make a loud vacuum-cleaner noise, this is why. This 
@@ -182,7 +211,11 @@ increasing of CPU and fan speed is in response to greater processing, which is
 caused by a program that is doing a lot of work, like rendering video, or getting 
 stuck in a buggy processing loop. Sometimes the computer becomes unresponsive when 
 the CPU load has become so high that all processing comes to a halt, the computer "locks up", 
-and the only recourse is to physically shut down the computer and restart it.
+and the only recourse is to physically shut down the computer and restart it. If the 
+cooling system is 
+http://www.howtogeek.com/174288/how-to-tell-if-your-computer-is-overheating-and-what-to-do-about-it/[not working] 
+(i.e., the fan is broken or removed) and the temperature 
+of the CPU exceeds a certain limit, then the computer may shut itself down or reboot.
 
 === Peripherals ===
 
@@ -193,6 +226,8 @@ Examples are keyboards, pointing devices (like "mice"), monitors
 a http://en.wikipedia.org/wiki/USB[Universal Serial Bus (USB)]
 connector. 
 
+==== USB ====
+
 USB ports can vary in speed, so if speed matters, check your
 computer's specifications to make sure your ports meet your needs. For example, 
 if you have a http://en.wikipedia.org/wiki/USB#USB_3.0[USB 3.0] device, you 
@@ -202,6 +237,8 @@ port (colored black or white) will work, you will not get the extra
 http://en.wikipedia.org/wiki/List_of_device_bit_rates#Peripheral[speed] 
 advantage of USB 3.0 if you use a USB 2.0 port.
 
+==== Video ====
+
 Video connections also vary. While the connector shape will clearly 
 indicate which port to use, you may need an adapter to connect the computer with 
 the screen or projector. There are a lot of 
@@ -210,6 +247,20 @@ in use, but basically they come down to three of the most popular: VGA, DVI, and
 Apple devices often use http://support.apple.com/en-us/HT3235[miniature video connectors], 
 which means you need to carry around 
 your adapters with you if you plan to connect to a device with a different connector.
+
+==== Other High-speed Data Connections ====
+
+In addition to USB, there are a number of less common peripheral connections 
+for high-speed data transfer, such as Firewire (IEE1394), Thunderbolt, and eSATA. 
+http://en.wikipedia.org/wiki/IEEE_1394[Firewire] 
+is most commonly used with higher-end 
+digital video cameras, and other digital video interfaces. Firewire connectors are 
+also commonly found on Macs. 
+http://en.wikipedia.org/wiki/Thunderbolt_%28interface%29[Thunderbolt] is 
+mostly seen on Apple systems, and is used as a high speed interface for 
+external storage, displays, and more. As for 
+http://en.wikipedia.org/wiki/Serial_ATA#eSATA[eSATA], it's exclusively used 
+for storage from single disk to multi-disk arrays.
 
 === Memory and Storage ===
 
@@ -262,8 +313,8 @@ are meant to store information even when the computer is powered off.
 
 Some disk drives are used as external devices for _expanded storage_.
 Other examples of
-http://en.wikipedia.org/wiki/Computer_data_storage#Off-line_storage[off-
-line storage] are http://en.wikipedia.org/wiki/Flash_memory[flash
+http://en.wikipedia.org/wiki/Computer_data_storage#Off-line_storage[off-line 
+storage] are http://en.wikipedia.org/wiki/Flash_memory[flash
 memory] http://en.wikipedia.org/wiki/USB_flash_drive["sticks"] and
 http://en.wikipedia.org/wiki/Optical_disc_drive[optical disc drives],
 since these are often inserted only when needed.
@@ -343,7 +394,6 @@ required to back up the old drive, and prepare the new drive for use. As
 you can imagine, this procedure also exposes your data to more risk. For
 these reasons, people are more likely to use an external drive if they
 need expanded storage capacity, or they may use an online storage service.
-
 
 == Networking ==
 
