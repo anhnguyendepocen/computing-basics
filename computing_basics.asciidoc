@@ -200,9 +200,9 @@ it, along with a compatible, dedicated graphics card.
 ==== CPU Cooling ====
 
 CPUs and GPUs get hot and so are mated with a heat sink, and often a fan as well, 
-all clamped together in one unit. The hotter the chip, the greater the need 
+all clamped together in one unit. The hotter the processor, the greater the need 
 for cooling. Some CPUs offer http://en.wikipedia.org/wiki/Frequency_scaling[frequency scaling] 
-which allows the chip to speed up as needed. As it speeds up, it 
+which allows the processor to speed up as needed. As it speeds up, it 
 http://www.intel.com/support/processors/sb/CS-029426.htm[heats up], and 
 this may trigger the fan to increase speed (and noise) to keep up the cooling. 
 
@@ -260,7 +260,7 @@ http://en.wikipedia.org/wiki/Thunderbolt_%28interface%29[Thunderbolt] is
 mostly seen on Apple systems, and is used as a high speed interface for 
 external storage, displays, and more. As for 
 http://en.wikipedia.org/wiki/Serial_ATA#eSATA[eSATA], it's exclusively used 
-for storage from single disk to multi-disk arrays.
+for storage -- for connecting to single disk or multi-disk arrays.
 
 === Memory and Storage ===
 
@@ -271,13 +271,11 @@ huge difference in your ability to maximize your use of your computer.
 
 ==== Memory (RAM) ====
 
-Main memory, also known as
-http://en.wikipedia.org/wiki/Computer_data_storage#Primary_storage[
-primary storage], is the temporary "short term memory" also called
+A computer's "main memory" is the temporary "short term memory" also called
 http://en.wikipedia.org/wiki/Volatile_memory[volatile memory]. This
 memory will only store information so long as the power stays on. Once
 you shut off the computer, any information which was in the volatile
-memory is lost. Memory is used to store data and applications that the
+memory is lost. Memory is used to temporarily cache data and applications that the
 computer is currently using or has "open". When you close programs and
 files you are done using, memory is released and becomes available for
 other uses.
@@ -286,19 +284,17 @@ So, memory really isn't _storage_ in the common sense, as whatever is
 there won't stay there very long. Instead people usually just call it
 _memory_. The most common type of main, volatile memory is
 http://en.wikipedia.org/wiki/Random-access_memory[random access memory
-(RAM)]. _Random access_ means you can, in principle, access any particular block of
-memory you want _at random_ -- without having to sequentially search for
-it. RAM is installed in your computer packaged as 
-http://en.wikipedia.org/wiki/Integrated_circuit[chips], often on a
+(RAM)]. RAM is installed in your computer packaged as 
+http://en.wikipedia.org/wiki/Integrated_circuit[integrated circuits], often on a
 http://en.wikipedia.org/wiki/Memory_module[memory module] containing
-many chips.
+many of them.
 
 ==== Storage (Folders) ====
 
 A slower, but more permanent type of "long term memory" is called
 http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage[
 secondary storage]. This is what people more often refer to simply as
-_storage_. Files are stored in folders, or more generally, "storage". 
+_storage_. Files are stored in "folders", or more generally, just "storage". 
 
 The folders are logical containers which are physically implemented in 
 storage devices. These may be connected to your local computer or may 
@@ -333,11 +329,12 @@ program, or graphics application. It may also happen if your software
 has bugs which result in http://en.wikipedia.org/wiki/Memory_leak[memory
 leaks] -- errors which can consume inordinate amounts of memory without
 freeing it. You can free memory by closing applications, files, and
-"browser tabs" which don't need to be open right now. Releasing memory
+"browser tabs" which don't need to be open right now. The more you close, 
+the more memory you make available. Releasing memory
 can make a huge impact in computer performance.
 
 Alternatively, if you receive a "disk full" error, this means that your
-storage (hard disk) is full -- you have exceeded its capacity or your 
+storage (disk) is full -- you have exceeded its capacity or your 
 storage quota. Sometimes your available storage space fills when an
 application is buggy and writes way more data to the disk than it
 should. More often, people will fill their hard drives with files over time,
@@ -346,7 +343,11 @@ no longer write to the storage and will usually either halt with an
 error message or keep trying causing strange delays. People usually free
 up storage space by removing old or temporary files no longer needed, or
 are backed up somewhere else. You may also use a software tool called a
-_disk cleaning utility_ or similar to automate this task somewhat.
+_disk cleaning utility_ or similar to automate this task somewhat. There are 
+also some tools that can take inventory of your storage consumption to tell you 
+which folders consume the most space. This will help you quickly find the large files which
+you no longer need, so that you can delete or archive them to free up a lot of space with 
+a minimum of fuss.
 
 === Virtual Memory ===
 
@@ -547,6 +548,37 @@ will process as the page loads. This will speed up your browsing
 experience and also reduce the load on your network connection and your
 computer.
 
+== Internet ==
+
+We mention the Internet elsewhere in this resource, such as in the security and networking topics. But what _is_ the Internet and _how_ does it work?
+
+=== An Analogy ===
+
+The http://en.wikipedia.org/wiki/Internet[Internet] is like a spider "web" with lots of paths to get from "A" to "B". Where the paths cross is analogous to an Internet http://en.wikipedia.org/wiki/Router_%28computing%29[router]. Connecting the routers are the wires, http://en.wikipedia.org/wiki/Optical_fiber[fiber], and http://en.wikipedia.org/wiki/Communications_satellite[satellite] links. The information is sent through the Internet in little http://en.wikipedia.org/wiki/Network_packet[packets], like tiny dew drops sliding along the threads of the spider web.
+
+Now, this is a very well-known analogy, and inspired the name of the http://en.wikipedia.org/wiki/WorldWideWeb[WorldWideWeb], commonly known as "the web".
+
+[[img-spider-web]]
+image::images/286px-SpiderWebWithDew.jpg[caption="Photo: Abhijitsmiles, CC-BY 3.0 - ", title="Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
+
+=== The Web ===
+
+Though the Internet had been around for many years before the invention of the WorldWideWeb, many people didn't know about it, so their introduction to the Internet was through the web and web browsers. Naturally, many people assumed the two were synonymous, and this leads some confusion.
+
+The web began as distributed collection of documents, interlinked through "tags" embedded in the documents. The tags are codes in a markup language called HTML. Originally, the only interactivity was to click on a linked word to load the page that the word linked to. Later, further interaction was introduced with "scripting". Now, we have very interactive network applications of all kinds running in our web browsers. The benefit of using web applications is that you do not need to install anything in order to use them.
+
+==== Web Technologies ====
+
+Web applications make use of many technologies, some of which are built into the Internet infrastructure. These network technologies carry the bits of information around the internet from server, to router, to your computer. Layered on top of these lower-level technologies are application-level ones, such as the various languages (HTML, CSS, Javascript) of the web pages. These are the languages found in the "source code" of each web page.
+
+==== Dynamic Web Pages ====
+
+Additional languages run on web servers to create web pages as you need them. These dynamic pages, created "on the fly" to suit your individual requests, are generated by server-side code written in other computer languages (PHP, JSP, ASP, etc.). Further, your web browser may be able to communicate with the server by passing data "behind the scenes" without needing to load a new page. This is commonly done with languages like XML and JSON.
+
+==== Web Applications ====
+
+All of this technology allows a web page to respond to your mouse movements and keyboard entries. As web applications become more responsive through techniques like http://en.wikipedia.org/wiki/Ajax_%28programming%29[Ajax], they become more like traditional desktop applications. A site can go "live" and offer a web app immediately, without the need for people to purchase, download, and install any additional software. This is extremely powerful, as it removes many barriers, and enables web apps to gain popularity "overnight". This has greatly accelerated social networking sites in particular, such as LinkedIn, Facebook, Twitter, Instagram, and Tumblr.
+
 == Security ==
 
 === Introduction ===
@@ -694,9 +726,10 @@ there is any indication what your account has been compromised.
 * Changing passwords regularly may be required if
 http://en.wikipedia.org/wiki/Password_policy#Password_duration[password
 expiration] policies are enforced.
-* Don't use the same password for many accounts.
+* Don't use the same password for more than one account.
 * If your passwords must be "written down", protect them with encryption
 in a password manager.
+* Use password memory tricks to easily remember a different password for each site.
 * Avoid telling your applications to "remember" your password.
 * Don't use personal facts (such as birth date, birth place, etc) for
 answering security questions. A large number of personal facts are
