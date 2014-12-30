@@ -408,8 +408,9 @@ hardware devices. The instructions may be stored on physical media
 like a hard disk or USB thumbrive, just as a cooking recipe may be 
 written on a piece of paper or printed in a book. However, the recipe 
 itself is just an _idea_ of how to perform a task. Likewise, a 
-software program is essentially just a _logical model_ for executing 
-a set of computing operations.
+software program is essentially just a list of instructions (or a 
+_model_ that generates instructions) for the execution of a set of 
+desired computing operations.
 
 [[application-software]]
 === Application Software
@@ -455,7 +456,6 @@ http://en.wikipedia.org/wiki/Device_driver[device drivers], which are
 small programs that provide a software
 http://en.wikipedia.org/wiki/Interface_(computing)[interface] to the
 hardware. Devices that contain integrated circuits of their own may store software in 
-
 http://en.wikipedia.org/wiki/Firmware[firmware] that allows updates through a procedure called http://en.wikipedia.org/wiki/Firmware#Flashing[flashing].
 
 [[programming]]
@@ -474,8 +474,8 @@ the http://en.wikipedia.org/wiki/Programming_language[programming language]
 that was chosen for the task. Different languages are optimized for different 
 uses. Some languages are more general-purpose than others. 
 
-[[compiled-programs]]
-=== Compiled Programs
+[[compiling-programs]]
+=== Compiling Programs
 
 Most programming languages use a syntax that is convenient for human 
 programmers, but is not directly understandable (exectable) by computers. 
@@ -485,11 +485,11 @@ new http://en.wikipedia.org/wiki/Binary_file[binary file] which the
 computer can run directly. Any time the program needs to be run, that 
 binary file can be read by the computer and executed. 
 
-[[interpreted-programs]]
-=== Interpreted Programs
-
 Alternatively, the programmer may use an http://en.wikipedia.org/wiki/Interpreter_%28computing%29[interpreter] to perform both the 
-compile and execute functions in a single step. 
+compile and execute functions in a single step. This allows for greater
+convenience in development and also can make the program more _portable_ 
+as it can be run on any system for which an interpreter has been installed, 
+without the need to compile the program for any particular computing platform.
 
 [[compiled-versus-scripting-languages]]
 === Compiled versus Scripting Languages
@@ -501,12 +501,19 @@ languages. However, please keep in mind that a compiler or
 interpreter could be written for any language. Such distinctions 
 might be useful to describe how languages are commonly used, but 
 should not reflect on the nature or quality of a computer 
-language itself. For example, 
+language itself. 
+
+Some languages are implemented as a hybrid of the two approaches. 
+Many popular "scripting" languages like Perl, Python, R, and others 
+typically use some compiled routines (for performance) for those tasks 
+which benefit from them, but otherwise will use interpreted code. In this 
+way, programs written in these languages can offer the benefits of both
+performance and convenience.   
 http://en.wikipedia.org/wiki/Java_%28programming_language%29[Java] 
 is typically compliled into a intermediate form called 
 http://en.wikipedia.org/wiki/Java_bytecode[bytecode] which is then
 executed in a virtual environment called the 
-http://en.wikipedia.org/wiki/Java_virtual_machine[Java virtual machine (JVM)].
+http://en.wikipedia.org/wiki/Java_virtual_machine[Java virtual machine (JVM)]. 
 
 Most system software and desktop applications are compiled, generally 
 for performance reasons. Web application software and programs written 
