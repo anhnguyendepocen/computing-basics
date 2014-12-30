@@ -421,7 +421,8 @@ executed on your behalf by the CPU, such as
 http://en.wikipedia.org/wiki/Computer_program[programs] and
 http://en.wikipedia.org/wiki/Application_software[apps], are called
 http://en.wikipedia.org/wiki/Application_software[application software].
-Applications are the programs that perform a specific purpose or are
+Applications are the programs that serve a specific purpose for a computer 
+https://en.wikipedia.org/wiki/User_%28computing%29[user] or are to be 
 used for completing certain tasks, such as using the Internet, composing
 a text document, or working with data.
 
@@ -461,7 +462,8 @@ http://en.wikipedia.org/wiki/Firmware[firmware] that allows updates through a pr
 [[programming]]
 == Programming
 
-A programmer takes concepts about a program and translates those into 
+A programmer takes concepts about a how to perform a computing 
+task and translates those ideas into 
 http://en.wikipedia.org/wiki/Statement_%28computer_science%29[statements]. 
 These are usually typed into a computer file using a 
 http://en.wikipedia.org/wiki/Text_editor[text editor] as 
@@ -478,7 +480,7 @@ uses. Some languages are more general-purpose than others.
 === Compiling Programs
 
 Most programming languages use a syntax that is convenient for human 
-programmers, but is not directly understandable (exectable) by computers. 
+programmers, but is not directly understandable (executable) by computers. 
 To translate the program into executable program code, the programmer 
 may use a https://en.wikipedia.org/wiki/Compiler[compiler] to create a 
 new http://en.wikipedia.org/wiki/Binary_file[binary file] which the 
@@ -487,9 +489,9 @@ binary file can be read by the computer and executed.
 
 Alternatively, the programmer may use an http://en.wikipedia.org/wiki/Interpreter_%28computing%29[interpreter] to perform both the 
 compile and execute functions in a single step. This allows for greater
-convenience in development and also can make the program more _portable_ 
+convenience in development and can also make the program more _portable_ 
 as it can be run on any system for which an interpreter has been installed, 
-without the need to compile the program for any particular computing platform.
+without the need to compile the program for any specific computing platform.
 
 [[compiled-versus-scripting-languages]]
 === Compiled versus Scripting Languages
