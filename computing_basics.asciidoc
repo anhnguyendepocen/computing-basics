@@ -328,7 +328,9 @@ happen if you load too much data into a statistical package, spreadsheet
 program, or graphics application. It may also happen if your software
 has bugs which result in http://en.wikipedia.org/wiki/Memory_leak[memory
 leaks] -- errors which can consume inordinate amounts of memory without
-freeing it. You can free memory by closing applications, files, and
+freeing it. 
+
+You can free memory by closing applications, files, and
 "browser tabs" which don't need to be open right now. The more you close, 
 the more memory you make available. Releasing memory
 can make a huge impact in computer performance.
@@ -340,9 +342,10 @@ application is buggy and writes way more data to the disk than it
 should. More often, people will fill their hard drives with files over time,
 until eventually there is no more room left. When this happens, software can
 no longer write to the storage and will usually either halt with an
-error message or keep trying causing strange delays. People usually free
-up storage space by removing old or temporary files no longer needed, or
-are backed up somewhere else. You may also use a software tool called a
+error message or keep trying causing strange delays. 
+
+People usually free up storage space by removing old or temporary files no longer 
+needed, or are backed up somewhere else. You may also use a software tool called a
 _disk cleaning utility_ or similar to automate this task somewhat. There are 
 also some tools that can take inventory of your storage consumption to tell you 
 which folders consume the most space. This will help you quickly find the large files which
@@ -395,6 +398,123 @@ required to back up the old drive, and prepare the new drive for use. As
 you can imagine, this procedure also exposes your data to more risk. For
 these reasons, people are more likely to use an external drive if they
 need expanded storage capacity, or they may use an online storage service.
+
+[[software]]
+== Software
+
+Software is the name for instructions for computing devices. Software 
+is "soft" because the instructions are not physical entities like 
+hardware devices. The instructions may be stored on physical media 
+like a hard disk or USB thumbrive, just as a cooking recipe may be 
+written on a piece of paper or printed in a book. However, the recipe 
+itself is just an _idea_ of how to perform a task. Likewise, a 
+software program is essentially just a _logical model_ for executing 
+a set of computing operations.
+
+[[application-software]]
+=== Application Software
+
+As you use a computer, the
+http://en.wikipedia.org/wiki/Software[software] instructions that are
+executed on your behalf by the CPU, such as
+http://en.wikipedia.org/wiki/Computer_program[programs] and
+http://en.wikipedia.org/wiki/Application_software[apps], are called
+http://en.wikipedia.org/wiki/Application_software[application software].
+Applications are the programs that perform a specific purpose or are
+used for completing certain tasks, such as using the Internet, composing
+a text document, or working with data.
+
+[[system-software]]
+=== System Software
+
+[[the-operating-system]]
+==== The Operating System
+
+Applications run within a software environment called the
+http://en.wikipedia.org/wiki/Operating_system[operating system (OS)].
+Examples include
+http://en.wikipedia.org/wiki/Microsoft_Windows[Microsoft Windows],
+http://en.wikipedia.org/wiki/OS_X[OS X],
+http://en.wikipedia.org/wiki/IOS[iOS],
+http://en.wikipedia.org/wiki/Android[Android] and
+http://en.wikipedia.org/wiki/Linux[Linux]. The operating system contains
+thousands of files, many of which are
+http://en.wikipedia.org/wiki/Utility_software[utility software] or
+http://en.wikipedia.org/wiki/Library_(computing)[software libraries].
+
+[[kernel-drivers-and-firmware]]
+==== Kernel, Drivers, and Firmware
+
+An operating system also has a
+http://en.wikipedia.org/wiki/Kernel_(operating_system)[kernel], which is
+the central software program that manages the
+http://en.wikipedia.org/wiki/Data_%28computing%29[data] exchange between
+the CPU and the other components within a computer. The kernel
+communicates with those components using
+http://en.wikipedia.org/wiki/Device_driver[device drivers], which are
+small programs that provide a software
+http://en.wikipedia.org/wiki/Interface_(computing)[interface] to the
+hardware. Devices that contain integrated circuits of their own may store software in 
+
+http://en.wikipedia.org/wiki/Firmware[firmware] that allows updates through a procedure called http://en.wikipedia.org/wiki/Firmware#Flashing[flashing].
+
+[[programming]]
+== Programming
+
+A programmer takes concepts about a program and translates those into 
+http://en.wikipedia.org/wiki/Statement_%28computer_science%29[statements]. 
+These are usually typed into a computer file using a 
+http://en.wikipedia.org/wiki/Text_editor[text editor] as 
+http://en.wikipedia.org/wiki/Plain_text[plain-text] 
+https://en.wikipedia.org/wiki/Source_code[source code]. The statements 
+are typed according to a certain 
+http://en.wikipedia.org/wiki/Syntax_%28programming_languages%29[language syntax]. 
+The syntax and the structures used in the statements are defined by 
+the http://en.wikipedia.org/wiki/Programming_language[programming language] 
+that was chosen for the task. Different languages are optimized for different 
+uses. Some languages are more general-purpose than others. 
+
+[[compiled-programs]]
+=== Compiled Programs
+
+Most programming languages use a syntax that is convenient for human 
+programmers, but is not directly understandable (exectable) by computers. 
+To translate the program into executable program code, the programmer 
+may use a https://en.wikipedia.org/wiki/Compiler[compiler] to create a 
+new http://en.wikipedia.org/wiki/Binary_file[binary file] which the 
+computer can run directly. Any time the program needs to be run, that 
+binary file can be read by the computer and executed. 
+
+[[interpreted-programs]]
+=== Interpreted Programs
+
+Alternatively, the programmer may use an http://en.wikipedia.org/wiki/Interpreter_%28computing%29[interpreter] to perform both the 
+compile and execute functions in a single step. 
+
+[[compiled-versus-scripting-languages]]
+=== Compiled versus Scripting Languages
+
+Sometimes people 
+categorize computer languages into compiled and interpreted 
+(http://en.wikipedia.org/wiki/Scripting_language[scripting]) 
+languages. However, please keep in mind that a compiler or 
+interpreter could be written for any language. Such distinctions 
+might be useful to describe how languages are commonly used, but 
+should not reflect on the nature or quality of a computer 
+language itself. For example, 
+http://en.wikipedia.org/wiki/Java_%28programming_language%29[Java] 
+is typically compliled into a intermediate form called 
+http://en.wikipedia.org/wiki/Java_bytecode[bytecode] which is then
+executed in a virtual environment called the 
+http://en.wikipedia.org/wiki/Java_virtual_machine[Java virtual machine (JVM)].
+
+Most system software and desktop applications are compiled, generally 
+for performance reasons. Web application software and programs written 
+by end-users (e.g., data analysis, systems administration) are often 
+interpreted programs, generally for easier, more interactive, development. 
+So, the way a language is used will generally determine whether the 
+development tools for that language include compilers, interpreters, 
+or both.
 
 == Networking ==
 
@@ -548,44 +668,94 @@ will process as the page loads. This will speed up your browsing
 experience and also reduce the load on your network connection and your
 computer.
 
-== Internet ==
+:imagesdir: images
 
-We mention the Internet elsewhere in this resource, such as in the security and networking topics. But what _is_ the Internet and _how_ does it work?
+== The Internet ==
+
+We mention the Internet elsewhere in this resource, such as in the security 
+and networking topics. But what _is_ the Internet and _how_ does it _work_?
 
 === An Analogy ===
 
-The http://en.wikipedia.org/wiki/Internet[Internet] is like a spider "web" with lots of paths to get from "A" to "B". Where the paths cross is analogous to an Internet http://en.wikipedia.org/wiki/Router_%28computing%29[router]. Connecting the routers are the wires, http://en.wikipedia.org/wiki/Optical_fiber[fiber], and http://en.wikipedia.org/wiki/Communications_satellite[satellite] links. The information is sent through the Internet in little http://en.wikipedia.org/wiki/Network_packet[packets], like tiny dew drops sliding along the threads of the spider web.
-
-Now, this is a very well-known analogy, and inspired the name of the http://en.wikipedia.org/wiki/WorldWideWeb[WorldWideWeb], commonly known as "the web".
+The http://en.wikipedia.org/wiki/Internet[Internet] is like a spider "web" 
+with lots of paths to get from "A" to "B".  This is a very well-known 
+analogy, and inspired the name of the 
+http://en.wikipedia.org/wiki/WorldWideWeb[WorldWideWeb], commonly known as 
+"The Web". However, make no mistake; "The Web" is not the same things as "The Internet".
 
 [[img-spider-web]]
-image::images/286px-SpiderWebWithDew.jpg[caption="Photo: Abhijitsmiles, CC-BY 3.0 - ", title="Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
+image::286px-SpiderWebWithDew.jpg[caption="Photo: Abhijitsmiles, CC-BY 3.0 - ", title="Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
 
 === The Web ===
 
-Though the Internet had been around for many years before the invention of the WorldWideWeb, many people didn't know about it, so their introduction to the Internet was through the web and web browsers. Naturally, many people assumed the two were synonymous, and this leads some confusion.
+Though the Internet had been around for many years before the invention of 
+the WorldWideWeb, many people didn't know about it, so their introduction to 
+the Internet was through the web and web browsers. Naturally, many people 
+assumed the two were synonymous, and this led to some confusion. Whereas the 
+Internet is a network _infrastructure_ of _communications links_ and 
+_hosts_, the WorldWideWeb is a network of _information_ and _applications_ 
+connected by and hosted upon the Internet. Web _browsing_ is just one of many 
+ways to use the Internet.
 
-The web began as distributed collection of documents, interlinked through "tags" embedded in the documents. The tags are codes in a markup language called HTML. Originally, the only interactivity was to click on a linked word to load the page that the word linked to. Later, further interaction was introduced with "scripting". Now, we have very interactive network applications of all kinds running in our web browsers. The benefit of using web applications is that you do not need to install anything in order to use them.
+==== From Hyperlinks to Apps ====
+
+The web began as distributed collection of documents, _hyperlinked_ through 
+"tags" embedded in the documents. The tags are codes in a markup language 
+called HTML. Originally, the only interactivity was to click on a linked 
+word to load the page that the word linked to. Later, further interaction 
+was introduced with "scripting". Now, we have very interactive network 
+applications ("apps") of all kinds running in our web browsers. The benefit of using 
+web applications is that you do not need to install anything other than your 
+web browser (and maybe a browser _plugin_) in order to use them.
 
 ==== Web Technologies ====
 
-Web applications make use of many technologies, some of which are built into the Internet infrastructure. These network technologies carry the bits of information around the internet from server, to router, to your computer. Layered on top of these lower-level technologies are application-level ones, such as the various languages (HTML, CSS, Javascript) of the web pages. These are the languages found in the "source code" of each web page.
+Web applications make use of many technologies, some of which are built into 
+the Internet infrastructure. These network technologies carry the bits of 
+information around the internet from server, to router, to your computer. 
+Layered on top of these lower-level technologies are application-level ones, 
+such as the various languages (HTML, CSS, Javascript) of the web pages. 
+These are the languages found in the "source code" of each web page.
 
 ==== Dynamic Web Pages ====
 
-Additional languages run on web servers to create web pages as you need them. These dynamic pages, created "on the fly" to suit your individual requests, are generated by server-side code written in other computer languages (PHP, JSP, ASP, etc.). Further, your web browser may be able to communicate with the server by passing data "behind the scenes" without needing to load a new page. This is commonly done with languages like XML and JSON.
+Additional languages run on web servers to create web pages as you need 
+them. These dynamic pages, created "on the fly" to suit your individual 
+requests, are generated by server-side code written in other computer 
+languages (PHP, JSP, ASP, etc.). Further, your web browser may be able to 
+communicate with the server by passing data "behind the scenes" without 
+needing to load a new page. This is commonly done with languages like XML 
+and JSON.
 
 ==== Web Applications ====
 
-All of this technology allows a web page to respond to your mouse movements and keyboard entries. As web applications become more responsive through techniques like http://en.wikipedia.org/wiki/Ajax_%28programming%29[Ajax], they become more like traditional desktop applications. A site can go "live" and offer a web app immediately, without the need for people to purchase, download, and install any additional software. This is extremely powerful, as it removes many barriers, and enables web apps to gain popularity "overnight". This has greatly accelerated social networking sites in particular, such as LinkedIn, Facebook, Twitter, Instagram, and Tumblr.
+All of this technology allows a web page to respond to your mouse movements 
+and keyboard entries. As web applications become more responsive through 
+techniques like http://en.wikipedia.org/wiki/Ajax_%28programming%29[Ajax], 
+they become more like traditional desktop applications. A site can go "live" 
+and offer a web app immediately, without the need for people to purchase, 
+download, and install any additional software. This is extremely powerful, 
+as it removes many barriers, and enables web apps to gain popularity 
+"overnight". This has greatly accelerated social networking sites in 
+particular, such as LinkedIn, Facebook, Twitter, Instagram, and Tumblr.
 
+=== Internet Routing ===
+
+Let's return to our earlier analogy for the Internet, of a network of paths 
+connecting "A" to "B". Where the paths cross is analogous to an Internet 
+http://en.wikipedia.org/wiki/Router_%28computing%29[router]. Connecting the 
+routers are the wires, http://en.wikipedia.org/wiki/Optical_fiber[fiber], 
+and http://en.wikipedia.org/wiki/Communications_satellite[satellite] links. 
+The information is sent through the Internet in tiny data 
+http://en.wikipedia.org/wiki/Network_packet[packets], traveling along these 
+paths like postcards through the postal system.
 == Security ==
 
 === Introduction ===
 
-_Information_ security is about protecting information from
+_Information security_ is about protecting information from
 unauthorized use as well ensuring availability for authorized use.
-_Computer_ security is this practice applied specifically to computing
+_Computer security_ is this practice applied specifically to computing
 devices, networks, services, and data.
 
 As computer security is a "practice", not a "product", it depends on
@@ -736,7 +906,9 @@ answering security questions. A large number of personal facts are
 public record or readily available via social media.
 * As an alternative, give answers that don't actually answer the
 question, e.g. if they ask for birth place, give them the color blue.
-* Only use administrative accounts for specific administrative tasks.
+* Only use administrative accounts for specific administrative tasks. For 
+ordinary, everyday activity, use a regular, non-privileged account. This limits 
+the damage which can be done by mistake, mischief, or malware.
 
 ==== Data Security ====
 
@@ -963,11 +1135,18 @@ have received from them.
 While it is possible to digitally (cryptographically) sign a file or
 some text, as in an email, most people never do, know how to, etc., as
 with encryption. Here, again, a tool like GnuPG can be used, as well as
-other public key infrastructure (PKI) utilities. Many email clients have
+other _public key infrastructure_ (PKI) utilities. Many email clients have
 support for this built-in, or it can be added with a plugin. Using
 digital signatures can then be used to validate a sender and the
-contents of the message as being legitimate.
+contents of the message as being legitimate. 
 
+Do not confuse the use of _cryptographic_ digital signatures with simply 
+digitizing a written signature into an electronic file. The latter practice 
+provides no assurances against forgery. A cryptographic signature, on the other 
+hand can be verified using a _public key_. If a cryptographically signed 
+document is modified after it is signed, then the digital signature will be broken. 
+This can be detected by checking the signature. As you can see, digital signatures 
+provide assurances against both forgery and modification.
 == Resource Management ==
 
 === Introduction ===
