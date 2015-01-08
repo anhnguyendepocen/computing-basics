@@ -355,7 +355,7 @@ a minimum of fuss.
 === The Kitchen Analogy ===
 
 A commonly used analogy to explain memory (RAM) and storage (disk) is the 
-so-called "kitchen analogy". Imaging you are a cook (the CPU) cooking in a 
+so-called "kitchen analogy". Imagine you are a cook (the CPU) cooking in a 
 kitchen (computer). RAM is like a counter top where the food sits while you are 
 preparing it. It would be inefficient and expensive to leave food on the 
 counter all the time, but it is certainly a handy place to keep the food
@@ -364,7 +364,7 @@ where food stays in storage until it is needed, but is not
 as quick to access as the counter top. RAM is designed for fast data access, 
 which can be expensive. The hard drive doesn't have to move data as fast, 
 so it's cheaper. That's why hard drives have greater capacity than RAM, but
-are cheaper and why RAM as used as a temporary place to store data while 
+are cheaper and why RAM is used as a temporary place to store data while 
 being processed by the CPU.
 
 === Virtual Memory ===
