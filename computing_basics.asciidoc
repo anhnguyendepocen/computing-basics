@@ -219,7 +219,7 @@ of the CPU exceeds a certain limit, then the computer may shut itself down or re
 
 === Peripherals ===
 
-Peripherals include the devices external the computer which generally
+Peripherals include the devices external to the computer which generally
 feed information into the computer or deliver it from the computer.
 Examples are keyboards, pointing devices (like "mice"), monitors
 (screens), speakers, etc. Many peripherals connect to the computer using
@@ -352,6 +352,21 @@ which folders consume the most space. This will help you quickly find the large 
 you no longer need, so that you can delete or archive them to free up a lot of space with 
 a minimum of fuss.
 
+=== The Kitchen Analogy ===
+
+A commonly used analogy to explain memory (RAM) and storage (disk) is the 
+so-called "kitchen analogy". Imaging you are a cook (the CPU) cooking in a 
+kitchen (computer). RAM is like a counter top where the food sits while you are 
+preparing it. It would be inefficient and expensive to leave food on the 
+counter all the time, but it is certainly a handy place to keep the food
+while you work with it. A hard drive is like a pantry and refrigerator, 
+where food stays in storage until it is needed, but is not 
+as quick to access as the counter top. RAM is designed for fast data access, 
+which can be expensive. The hard drive doesn't have to move data as fast, 
+so it's cheaper. That's why hard drives have greater capacity than RAM, but
+are cheaper and why RAM as used as a temporary place to store data while 
+being processed by the CPU.
+
 === Virtual Memory ===
 
 You should see that the causes and remedies of memory and storage errors
@@ -469,11 +484,12 @@ These are usually typed into a computer file using a
 http://en.wikipedia.org/wiki/Text_editor[text editor] as 
 http://en.wikipedia.org/wiki/Plain_text[plain-text] 
 https://en.wikipedia.org/wiki/Source_code[source code]. The statements 
-are typed according to a certain 
-http://en.wikipedia.org/wiki/Syntax_%28programming_languages%29[language syntax]. 
-The syntax and the structures used in the statements are defined by 
+are composed according to a certain 
+http://en.wikipedia.org/wiki/Syntax_%28programming_languages%29[language syntax] 
+and http://en.wikipedia.org/wiki/Semantics#Computer_science[semantics]. 
+The rules for composing the program statements are defined by 
 the http://en.wikipedia.org/wiki/Programming_language[programming language] 
-that was chosen for the task. Different languages are optimized for different 
+that is chosen for the task. Different languages are optimized for different 
 uses. Some languages are more general-purpose than others. 
 
 [[compiling-programs]]
