@@ -774,6 +774,8 @@ and http://en.wikipedia.org/wiki/Communications_satellite[satellite] links.
 The information is sent through the Internet in tiny data 
 http://en.wikipedia.org/wiki/Network_packet[packets], traveling along these 
 paths like postcards through the postal system.
+
+
 == Security ==
 
 === Introduction ===
