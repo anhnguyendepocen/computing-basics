@@ -1,4 +1,5 @@
 = Computing Basics =
+:imagesdir: images
 
 == Introduction ==
 
@@ -693,7 +694,7 @@ will process as the page loads. This will speed up your browsing
 experience and also reduce the load on your network connection and your
 computer.
 
-:imagesdir: images
+
 
 == The Internet ==
 
@@ -1174,6 +1175,8 @@ hand can be verified using a _public key_. If a cryptographically signed
 document is modified after it is signed, then the digital signature will be broken. 
 This can be detected by checking the signature. As you can see, digital signatures 
 provide assurances against both forgery and modification.
+
+
 == Resource Management ==
 
 === Introduction ===
