@@ -710,7 +710,7 @@ http://en.wikipedia.org/wiki/WorldWideWeb[WorldWideWeb], commonly known as
 "The Web". However, make no mistake; "The Web" is not the same things as "The Internet".
 
 [[img-spider-web]]
-image::286px-SpiderWebWithDew.jpg[caption="Photo: Abhijitsmiles, CC-BY 3.0 - ", title="Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
+image::286px-SpiderWebWithDew.jpg[caption="", title="Photo: Abhijitsmiles, CC-BY 3.0 - Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
 
 === The Web ===
 
@@ -904,7 +904,7 @@ neglect any of these, they will eventually fail.
 'shareware' software hosted by popular, often glitzy download sites.
 * Some software installers come bundled with stuff you don't want so
 it's best to actually look at and read the prompts rather than just
-clicking next, next, next.
+clicking _Next_, _Next_, _Next_.
 * If you are prompted to update software, make sure it is a legitimate
 prompt before you agree to the update. Be wary of fake updaters for
 plugins, like bogus "Flash" updaters which may install malware.
@@ -920,7 +920,7 @@ password immediately.
 random. Mix upper and lower case letters, punctuation symbols and
 numbers. This increases the difficulty of cracking the password.
 * Change a password promptly if it could have been seen by others, or if
-there is any indication what your account has been compromised.
+there is any indication That your account has been compromised.
 * Changing passwords regularly may be required if
 http://en.wikipedia.org/wiki/Password_policy#Password_duration[password
 expiration] policies are enforced.
