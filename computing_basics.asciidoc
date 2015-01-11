@@ -701,16 +701,16 @@ computer.
 We mention the Internet elsewhere in this resource, such as in the security 
 and networking topics. But what _is_ the Internet and _how_ does it _work_?
 
-=== An Analogy ===
+=== The Web Analogy ===
 
 The http://en.wikipedia.org/wiki/Internet[Internet] is like a spider "web" 
 with lots of paths to get from "A" to "B".  This is a very well-known 
 analogy, and inspired the name of the 
 http://en.wikipedia.org/wiki/WorldWideWeb[WorldWideWeb], commonly known as 
-"The Web". However, make no mistake; "The Web" is not the same things as "The Internet".
+"The Web". However, make no mistake; "The Web" is _not_ the same thing as "The Internet"!
 
 [[img-spider-web]]
-image::286px-SpiderWebWithDew.jpg[caption="", title="Photo: Abhijitsmiles, CC-BY 3.0 - Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
+image::286px-SpiderWebWithDew.jpg[caption="", title="Photo: Abhijitsmiles, CC BY 3.0 - Spider web with dew drops", alt="spider web", width="286", height="240", link="http://commons.wikimedia.org/wiki/File:SpiderWebWithDew.jpg"]
 
 === The Web ===
 
