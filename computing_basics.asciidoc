@@ -547,46 +547,61 @@ or both.
 === Introduction ===
 
 Computers, phones, tablets, etc. communicate using wired and/or
-wireless networks, for example the network known as "the Internet". 
-Network communications are facilitated by various protocols, for
-example HTTP ("web") and SMTP ("email"), Ethernet ("wired"), and WiFi ("wireless"). 
-The networking technologies and their protocols are designed to be 
-modular and are organized into several layers.
+wireless networks. The most famous network is known as the 
+http://en.wikipedia.org/wiki/Internet[Internet]. 
+Network communications are facilitated by various 
+http://en.wikipedia.org/wiki/Internet_protocol_suite[protocols], for
+example HTTP ("web") and SMTP ("email"), Ethernet ("wired"), and WiFi 
+("wireless"). The networking technologies and their protocols are 
+designed to be modular and are organized into several protocol 
+http://en.wikipedia.org/wiki/OSI_model[layers].
 
-The use of standards (technologies, protocols, frameworks, etc.) makes
+The use of http://en.wikipedia.org/wiki/Internet_Standard[standards] 
+(technologies, protocols, frameworks, etc.) makes
 networking easier to use and troubleshoot. Knowing a little about these
 standards will help you make better use of computer networks. 
-These technical standards are defined in public documents (RFCs, etc.)
-and are developed openly by international working groups. Anyone can
-read these documents to understand the protocols and learn how they work
-together.
+These technical standards are defined in public documents 
+(http://en.wikipedia.org/wiki/Request_for_Comments[RFC]s, etc.)
+and are developed openly by 
+http://en.wikipedia.org/wiki/Internet_Engineering_Task_Force[international working groups]. 
+Anyone can read these documents to understand the protocols and learn 
+how they work together.
 
 === Reliability ===
 
-Computer networks are useful, but not entirely reliable. If it is
-really important that a communication is made, then email, text, etc.,
-may not be sufficient. Use a telephone or some other means of real-time
-communication if reliability is important. Although using computers or
-the Internet may be a convenient way to communicate, it may not be the
-best way in certain circumstances.
+Computer networks are useful, but 
+http://en.wikipedia.org/wiki/Best-effort_delivery[not entirely reliable]. 
+If it is really important that a communication is made, then email, text, 
+etc., may not be sufficient. Use a telephone or some other means of 
+real-time communication if reliability is important. Although using 
+computers or the Internet may be a convenient way to communicate, it may 
+not be the best way in certain circumstances.
 
 === Wired vs. Wireless ===
 
 All else being equal, for a typical computer workstation or laptop, a
-wired (e.g, Ethernet) network connection will generally be more
-reliable, faster, and more secure than a wireless (e.g, WiFi) one. 
+wired (e.g, http://en.wikipedia.org/wiki/Ethernet[Ethernet]) 
+network connection will generally be more
+reliable, faster, and more secure than a wireless (e.g, 
+http://en.wikipedia.org/wiki/Wi-Fi[WiFi]) one. 
 If you are using a wired connection, but your device also has wireless
 enabled, you will save energy and possibly improve your network
 performance by disabling the wireless while you are wired. Some newer
-devices will do this for you by default, but check on this.
+devices will do this for you by default, but verify this behavior with 
+your system to be sure.
 
 === Device Management Tips ===
 
-Keep your devices up-to-date on security patches, plugins, firmware,
-anti-virus, etc. While this is a standard security practice, it will
+Keep your devices up-to-date on 
+http://en.wikipedia.org/wiki/Patch_%28computing%29#SECURITY[security patches], 
+http://en.wikipedia.org/wiki/Plug-in_%28computing%29[plugins], 
+http://en.wikipedia.org/wiki/Firmware[firmware],
+http://en.wikipedia.org/wiki/Antivirus_software[anti-virus], etc. 
+While this is a standard security practice, it will
 also help fix certain problems caused by version incompatibilities and
 bug fixes. Be careful, though, as some bug fixes and updates may create
-bigger problems than they solve. Some firmware updates can "brick" a
+bigger problems than they solve. Some firmware updates can 
+http://en.wikipedia.org/wiki/Brick_%28electronics%29[brick] a
 device. If in doubt, search online for bug reports about updates before
 applying them.
 
@@ -601,8 +616,10 @@ WiFi network and the router's administrative features.
 ==== General Concepts ====
 
 Do network troubleshooting starting with the devices closest to your
-machine and then moving outward. For example, try accessing your own
-router (via ping or its web interface) or another machine on your local
+machine and then move outward. For example, try accessing your own
+http://en.wikipedia.org/wiki/Router_%28computing%29[router] (via 
+http://en.wikipedia.org/wiki/Ping_%28networking_utility%29[ping] 
+or its web interface) or another machine on your local
 network before concluding your Internet connection is down. That way if
 it's a local problem, you don't waste time on hold with your service
 provider's technical support.
@@ -611,7 +628,8 @@ Given that professionally managed networks are generally well designed
 and maintained, a poor network connection is most likely caused by a
 fault at your end (your device), especially if you are using a wireless
 connection. The most common exceptions would be a network outage at your
-service provider or somewhere else along the route, but those will be
+http://en.wikipedia.org/wiki/Internet_service_provider[service provider] 
+or somewhere else along the route, but those will be
 relatively rare compared to problems you may have with your own
 equipment.
 
@@ -625,44 +643,54 @@ with more rugged components, housed in more secure locations with
 adequate cooling and redundant power, and are more rigorously tested,
 monitored, and serviced.
 
-All of the various links in the route between you and the remote site,
-etc., need to be working properly. If your computer seems to be fine and
+All of the various links in the route between you and the remote site 
+need to be working properly. If your computer seems to be fine and
 the site seems fine, but there is still a problem, the cause may be a
-router or switch between you and the other system.
+network router or http://en.wikipedia.org/wiki/Network_switch[switch] 
+between you and the other system.
 
 Take some time to learn about concepts such as domain name servers,
-routing, NAT, etc., as this knowledge will help your troubleshooting
+routing, http://en.wikipedia.org/wiki/Network_address_translation[NAT], 
+etc., as this knowledge will help your troubleshooting
 efforts immensely, saving a lot of time and frustration (yours and those
 who help you).
 
 ==== Troubleshooting Tools and Techniques ====
 
 If you are having a problem with an application that uses networking,
-such as your web browser or your email client, check networking with
-another application, website, device, etc., try to narrow the possible
+such as your web browser or your email client, then check networking with
+another application, website, device, etc. Try to narrow the possible
 causes. There are many layers of technology that must all be working
 together properly, and by limiting the variables, you are more likely to
-determine the most likely source of the problem.
+determine the most probable source of the problem.
 
-First, if using wireless, make sure the wireless feature is enabled,
-switched on, etc., or if using a wired connection, check your network
+First, if you using a wireless connection, make sure the wireless feature is enabled,
+switched on, etc., or if using a wired (Ethernet) connection, check that your network
 cable is plugged in (both ends), then check the link light on your
-computer and the network equipment (router, switch, etc.), making sure
-any network devices are powered on, then check if you have been assigned
-a valid IP address.
+computer and the network equipment (router, switch, etc.), making sure that 
+any network devices are powered on. Finally, check to see if you have been assigned
+a valid http://en.wikipedia.org/wiki/IP_address[IP address]. 
 
-Know how to find your IP address, MAC address and DHCP settings; these
-are key pieces of information needed to get help from your network
-service provider.
+Know how to http://www.wikihow.com/Find-out-Your-IP-Address[find your IP address], 
+http://www.wikihow.com/Find-the-MAC-Address-of-Your-Computer[MAC address] 
+and http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol[DHCP] 
+settings. These are key pieces of information needed to get help from 
+your network service provider. You can do this with utilities included 
+with your operating system.
 
 Learn to do a network "ping" and how to interpret the results. This is
 an invaluable troubleshooting tool that comes with most popular desktop
-and laptop computer systems. Ping and "traceroute" (tracert) can help
-you find the network hops (routes) which may be down or slow.
+and laptop computer systems. Ping and 
+http://en.wikipedia.org/wiki/Traceroute[traceroute] (tracert) can help
+you find the network hops (routes) which may be down or slow. Again, 
+these utilities come with popular computer systems. You will find many 
+tutorials online regarding their use with a quick Internet search.
 
 Just because you can make a "good" wireless connection, does not mean
-that the router (access point) you have connected to will actually
-provide you with Internet access. It's own connection to "the outside"
+that the router (or 
+http://en.wikipedia.org/wiki/Wireless_access_point[access point]) you 
+have connected to will actually
+provide you with Internet access. Its own connection to "the outside"
 may be down, it may require some sort of authentication (or payment), or
 it may simply not be configured properly.
 
@@ -682,14 +710,19 @@ encryption, network congestion on one or more links along the route, or
 simply that there are a lot of hops between you and the destination,
 each one adding additional overhead and latency. Just because the
 endpoints have fast connections does not mean that all of the links
-between them also have fast connections.
+between them also have fast connections. As an example, major universities 
+usually have very fast Internet connections, but a route between universities 
+may have to use slower links to make the end-to-end circuit complete.
 
 If your browser is slow to open or load the start page, you may want
 to choose a "blank page" or a simpler page as your start page. Likewise,
 web pages with large images, animation, advertisements, or interactive
 content will often be slower to load than simple pages with basic
-content. You can use browser plugins such as FlashBlock, AdBlock, and
-NoScript to limit the amount of extraneous content that your browser
+content. You can use browser plugins such as 
+https://addons.mozilla.org/en-US/firefox/addon/flashblock/[FlashBlock], 
+https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/?src=search[AdBlock], 
+and https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=search[NoScript] 
+to limit the amount of extraneous content that your browser
 will process as the page loads. This will speed up your browsing
 experience and also reduce the load on your network connection and your
 computer.
@@ -794,7 +827,7 @@ arguably much more than) software and hardware.
 
 Some believe that security and convenience are mutually exclusive,
 that as one increases, the other will decrease. The presumption is that
-security measures make a system harder to use. This is not necessary
+security measures make a system harder to use. This is not necessarily
 true, but having some degree of both security and convenience requires a
 smarter approach, carefully engineering the system so that the most
 secure behavior is also the easiest and most compelling.
@@ -805,13 +838,13 @@ will make it easier to develop and practice secure habits.
 You are ultimately responsible for the security of your computing
 experience. Take an active role. Learn and understand basic security
 concepts. Engage in the computing behaviors or "hygiene" which will give
-you the level of security you need while still maintaining the level of
+you the level of security you need while still maintaining the degree of 
 usability you desire. Be smart.
 
 === Manage Risks ===
 
 Like the old adage, "out of sight, out of mind", risks not seen are
-easier to ignore. "Ignorance is bliss" ... until it isn't.
+easier to ignore. "Ignorance is bliss" ... _until it isn't_.
 
 Make an effort to see the practical risks of various online behaviors
 and how they might put you at risk personally, financially, and
@@ -920,7 +953,7 @@ password immediately.
 random. Mix upper and lower case letters, punctuation symbols and
 numbers. This increases the difficulty of cracking the password.
 * Change a password promptly if it could have been seen by others, or if
-there is any indication That your account has been compromised.
+there is any indication that your account has been compromised.
 * Changing passwords regularly may be required if
 http://en.wikipedia.org/wiki/Password_policy#Password_duration[password
 expiration] policies are enforced.
@@ -1181,9 +1214,12 @@ provide assurances against both forgery and modification.
 
 === Introduction ===
 
-Computing Resource Management is making the best use of computing
-resources such as CPU, memory, storage space, bandwidth, etc. From a IT
-project management perspective, this includes areas such as requirements
+http://en.wikipedia.org/wiki/Resource_management_%28computing%29[Computing Resource Management] 
+is making the best use of computing
+resources such as CPU, memory, storage space, bandwidth, etc. From a 
+http://en.wikipedia.org/wiki/Information_technology[IT] 
+http://en.wikipedia.org/wiki/Project_management[project management] 
+perspective, this includes areas such as requirements
 analysis and capacity planning. The idea here is to predict resource
 requirements ahead of when you actually need them. You don't want to be
 scrambling for computing power at the last minute. And once the project
@@ -1195,8 +1231,8 @@ you actually need and are using them most effectively.
 Pick the right tool for the job.
 
 Workstation or Server, define your goals and scope of the project. Take
-a hard look at the job at hand, evaluate what it will take accomplish
-the task cost effectively.
+a hard look at the job at hand and evaluate what it will take to 
+accomplish the task cost effectively.
 
 Take into consideration:
 
@@ -1208,57 +1244,60 @@ Take into consideration:
 * performance
 * maintenance
 
-Start with software; Find a "tool", application or suite of applications
+Start with software. Find a "tool", application or suite of applications
 that will meet your project goals without a lot of extras.
 
 Pick an operating system that will run the tool of choice and provide a
 low total cost of ownership.
 
-Last, pick hardware that will best host your OS and application of
+Last, pick hardware that will best host your 
+http://en.wikipedia.org/wiki/Operating_system[OS] and application of
 choice, will meet the current requirements, and have a high probability
-to meet the future requirements for the next 5 years.
+to meet the future requirements for the next five years.
 
 === Estimating CPU, RAM, and Storage Needs ===
 
 ==== Know Your Data ====
 
-The first step in resource planning is determining how much data you'll
-be working with. How that's determined depends on where the data is
-coming from. If it's from an instrument, take a single sample, and just
-multiply how many samples you'll take. It's a good idea to include a
-margin of error, perhaps 10 to 20% extra, just in case. If the data is
-coming from an outside source, they may have a rough idea, if they've
-provided similar data to someone else.
+The first step in resource planning is to determine how much data you 
+will be working with. How you determine this will depend on the source 
+of the data. For data collected from an instrument, look at a single 
+sample, and just multiply the amount of data collected by the number of 
+samples you expect to collect. It's a good idea to include a
+margin of error, perhaps ten to twenty percent extra, just in case. 
+If the data is coming from an outside source, the data provider may have 
+a rough estimate, if they have provided similar data to someone else.
 
 ==== Know Your Tools ====
 
-Once you have the amount of data, it's possible to work out some rough
-ideas on other resources needed. However, two more questions must
+Once you know the amount of data, it's possible to work out some rough
+ideas about other resources needed. However, two more questions must
 answered. How quickly do you need your results? And, what tools do you
 plan to use?
 
 If your tools require storing data in RAM for processing, then your RAM
 needs will be directly impacted by the size of your dataset. So, if you
-find yourself with 10s to 100s of gigabytes of data, it may be wise to
-reconsider the tools being used, as there may be alternatives that can
-process data in chunks from disk. If you can't change tools, then if
-your dataset is, say 64GB in size, you'll be needing 70GB+ RAM to cover
-data and overhead.
+find yourself with tens to hundereds of gigabytes of data, it may be wise 
+to reconsider the tools being used, as there may be alternatives that can
+process data in smaller chunks from disk. If you can't change software 
+tools, then consider upgrading your hardware. For example, if your 
+dataset is 64GB in size, you'll be needing 70GB+ RAM to cover data and 
+overhead, assuming you must import all of your data into RAM at once.
 
 ==== Know Your Performance Requirements ====
 
-How quickly you need your results, will impact CPU and disk performance
-needs. The faster you need your results, the faster the CPU and disk
-you'll want. But these are also relative to your dataset size. A small
-amount of data, say 1GB can be read fairly quickly from a standard hard
-drive. Whereas 100GB of data, will take considerably longer.
+How quickly you need your results will impact CPU and disk performance
+requirements. The faster you need your results, the faster the CPU and disk
+you'll want. But these requirements are also relative to your dataset 
+size. A small amount of data, say 1GB, can be read fairly quickly from a 
+standard hard drive, whereas 100GB of data will take considerably longer.
 
-The other factor impacting CPU, is the tool selected. A single-threaded
+The other factor impacting CPU is the tool selected. A single-threaded
 tool for example, will benefit most from a high clock speed (GHz) CPU
 with just a few cores. Whereas a heavily multi-threaded tool, will
 benefit from many cores, of modest clock speed. To best determine the
 CPU needs of whatever software you use, you'll want to check the
-documentation or with the software's vendor.
+documentation or contact the software vendor.
 
 === An Example Scenario: Server Purchase ===
 
@@ -1287,8 +1326,8 @@ internally, what happens if the developer leaves the organization? Will
 they continue to support their code? Under what terms? Expect to pay
 roughly four times the initial development costs or more for code
 maintenance.
-* Who will maintain (perform updates, upgrades, repairs, monitoring) of
-this server?
+* Who will maintain (perform updates, upgrades, repairs, monitoring) 
+the server?
 * Who will be the primary contact person in the research group for
 ongoing support issues?
 
@@ -1303,11 +1342,11 @@ features?
 
 * What are the hosting requirements? Where will this server be hosted?
 How much will that cost?
-* Power (UPS, generator, redundant circuits, conditioned power)?
-Cooling? Physical security?
+* Power (http://en.wikipedia.org/wiki/Uninterruptible_power_supply[UPS], 
+generator, redundant circuits, conditioned power)? Cooling? Physical security?
 * Will the server need to be expandable? Will you need more storage
 later? Long-term data archival?
-* Who will maintain the server and perform backups?
+* Who will maintain the server and perform backups? You or the hosting provider?
 * What are the decommissioning requirements?
 * What spare parts can you afford to purchase? Will those be purchased
 now, or will money be set aside for this?
@@ -1318,7 +1357,7 @@ now, or will money be set aside for this?
 * Will you need backups? Off-site? Encrypted?
 * Have you budgeted for the cost of backups? Are you prepared to
 purchase backup hardware and software?
-* How much data will need to be backed-up and ho often? Will you need
+* How much data will need to be backed-up and how often? Will you need
 (incremental) snapshots?
 * How long will backups need to be archived?
 * What are the data management requirements? Does your research grant
@@ -1346,15 +1385,15 @@ involved in meeting compliance, including documentation and auditing?
 will they need? Who will manage that access (accounts, passwords, group
 memberships)?
 * Will the server use local user accounts or will it tie into some
-central accounts system within the organization? Will this account
+centralized user account system within the organization? Will this account
 system include accounts for all collaborators, even those who come from
 outside of the organization? How will those people be able to access the
 server?
 * Will all access be from campus or will some form of remote access
 (VPN, SSH, SFTP, Remote Desktop, etc.) be required?
 * If collaborators need access to sensitive data, how will they be
-certified to access that data? How will the IT people know who is or not
-certified when granting access to data?
+certified to access that data? How will the IT people know who is or 
+is not certified when granting access to data?
 
 ==== Final Questions ====
 
@@ -1616,7 +1655,7 @@ automated means -- by machines. The data may be queried, analyzed, and
 summarized into tables and plots for human eyes, but most people do not
 want to see all of the raw data directly.
 
-Further data may grow immensely in size without slowing down the
+Data may need to grow immensely in size without slowing down its
 processing. This need for scalability requires data to be managed more
 carefully and thoughtfully than individual document files. This is why
 data are often stored in data structures called databases. Databases are
@@ -1624,27 +1663,6 @@ specifically designed for efficient storage, searching, and processing
 of large amounts data. Sometimes, it is easier and more practical to
 store data in an individual data file than in a full-featured database
 system. It really depends on your needs.
-
-=== An Approach to Data Management ===
-
-Start with an easily machine readable format (when possible), preferably
-an open standard like CSV. This will reduce the amount of work required
-to convert the input data into a usable form for the widest number of
-applications.
-
-Normalize your data. In other words, when storing data, use a consistent
-format. For example, for every row of data, use the same format of
-datestamp. In addition, when using a relational database, avoid
-redundant data by linking related tables using a common identifier.
-
-Use the right tool for the job. Often folks are drawn toward software
-like MS-Access and File Maker due to the ease of use. However, such
-tools don't scale very well, and perform poorly in multi-user
-situations. If you find yourself needing a relational database, it's
-best to start with something like MySQL or MS SQL, and using one of
-their many graphical database management tools. While they do have a
-somewhat higher learning curve, their ability to scale means, you don't
-have to retool your work flow as your needs grow.
 
 === "Up-front" Data Planning ===
 
@@ -1671,8 +1689,56 @@ Determine _up-front_ how long the data will be around, and what the
 plans will be when it's no longer useful. If the plan is to create
 500,000 files/week for a decade, do the math and figure out if it's
 practical to store and analyze these files before you're in year 8 and
-things start falling apart. (True story).
+things start falling apart.
 
+=== A Tidy Approach to Data Management ===
+
+Start with an easily machine-readable file format (when possible), preferably
+an open and commonly-supported format like CSV. This will reduce the amount 
+of work required to convert the data into a usable form for the widest 
+number of data analysis applications.
+
+Be consistent. For example, for every row of data containing dates, use the 
+same date format. If a column contains a name or identifier, use the same
+capitalization or hyphenation rules throughout. Don't make the computer guess.
+This consistency will allow you to link related tables using a common (and 
+consistently used) identifier. It will allow you to group data by categories so 
+you can more easily calculate meaningful statistics and produce useful plots.
+
+http://en.wikipedia.org/wiki/Database_normalization[Normalize] your data. Divide 
+data into tables, each one containing data about a specific type of entity or 
+observational unit. For example, if your study involves subjects, locations, samples, 
+and test results, keep the information specific to each of those entity types in a 
+separate table, and then link them on a common field, like an identifier (ID). This 
+way, you are only repeating the ID in the linked tables. If you need to update the 
+record for one location, for example, you will only have to update one  
+record (row) in your location table. Each row should represent only one instance or 
+observation, while each column should represent only one attribute, characteristic, 
+measure, or variable. These are core principles of 
+http://vita.had.co.nz/papers/tidy-data.pdf[tidy data]. Taking a little time 
+to organize your data in this way will make working with it much less 
+error-prone and far easier.
+
+Use the right tool for the job. Often people are drawn toward software
+such as MS-Access and FileMaker due to the ease of use. However, such
+tools don't scale very well and perform poorly in multi-user
+situations. If you find yourself needing a relational database, it's
+best to start with something like MySQL or MS SQL, and use one of
+their many graphical database management tools. While they do have a
+somewhat higher learning curve, their ability to scale means you don't
+have to retool your work flow as your needs grow. 
+
+Similarly, if you are primarily doing data analysis in R, then consider using the 
+https://rawgit.com/wiki/Rdatatable/data.table/vignettes/datatable-intro-vignette.html[data.table] 
+package to organize, search, and manipulate your data instead of using data.frames. You will 
+gain many of the features of relational databases, all within your familiar R 
+environment, without needing to learn yet another language or framework. Plus, 
+you are likely to see increased performance and cleaner, simpler code. 
+
+So, if you're lucky, your favorite tool may support a _tidy data_ approach, 
+but be sure to allow for scalability, flexibility and collaboration. Don't be 
+afraid to stretch a little and learn a new package or tool if it will help 
+your long-term data management goals.
 
 == Buzzwords ==
 
