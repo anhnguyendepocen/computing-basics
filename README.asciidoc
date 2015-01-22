@@ -19,7 +19,8 @@ no particular order):
 _Brian High, Wilson Waldrop, Doug Hayman, Eric Kool-Brown, Thayer York,
 Richard Letts, Travis Mitchell, Chance Reschke, Bryce Livingston, David
 Brodbeck, Carl Riches, John Yocum, Martin Criminale, Nathan Dors,
-Michael Burdett, Ken Lowe, Erik Lundberg, Reuben Baker, Eddie Kasner_
+Michael Burdett, Ken Lowe, Erik Lundberg, Reuben Baker, Eddie Kasner, 
+Katie Mae Fellows_
 
 === Copyright, License and Disclaimer
 
