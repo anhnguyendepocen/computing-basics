@@ -809,7 +809,12 @@ The information is sent through the Internet in tiny data
 http://en.wikipedia.org/wiki/Network_packet[packets], traveling along these 
 paths like postcards through the postal system.
 
+=== Internet Map ===
 
+There are several ways to try and visualize the Internet. Pictured below are two views of how the Internet looks from an "app" (from Peer1.com). Both views, "Globe" and "Network", were captured from the screen of an Android smartphone after doing a search for "University of Washington" (UW). The dots are Internet sites and the lines are connections between the UW and some other sites.
+
+[[img-internet-map]]
+image::internet_map_UW_small.jpg[caption="", title="Image made with: Peer1 Map of the Internet", alt="Internet Map", width="498", height="383", link="images/internet_map_UW.jpg"]
 == Security ==
 
 === Introduction ===
