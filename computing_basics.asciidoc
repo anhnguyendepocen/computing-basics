@@ -1483,16 +1483,24 @@ or more filesystems before files are written to them.
 
 ==== Text Files ====
 
-A computer file may be "text" or "binary". Text files are strings of
-characters from a standard character (such as ASCII).
+A computer file may be "text" or "binary". 
+http://en.wikipedia.org/wiki/Text_file[Text files] are strings of
+characters from a standard character set, such as 
+http://en.wikipedia.org/wiki/ASCII[ASCII].
 
 Examples are:
 
 * simple text (just characters)
-* delineated text (characters separated with some special character,
-e.g. CSV, comma separated variables)
-* structured text (like web page code, i.e. HTML or XML, or JSON)
-* computer code (characters structured as a "program", i.e. source code)
+* http://en.wikipedia.org/wiki/Delimiter-separated_values[delimited] 
+text (characters separated with some special character,
+e.g. http://en.wikipedia.org/wiki/Comma-separated_values[CSV], 
+comma separated variables)
+* structured text (like web page code, i.e. 
+http://en.wikipedia.org/wiki/HTML[HTML] or 
+http://en.wikipedia.org/wiki/XML[XML], or 
+http://en.wikipedia.org/wiki/JSON[JSON])
+* computer code (characters structured as a "program", i.e. 
+http://en.wikipedia.org/wiki/Source_code[source code])
 
 The file name could be just about anything, but often they will end with
 a "suffix", usually a dot/period (.) followed with some characters
@@ -1501,15 +1509,17 @@ py, pl, R, etc.
 
 ==== Binary Files ====
 
-Instead of using just "plain text" characters, a file can also contain a
+Instead of using just http://en.wikipedia.org/wiki/Plain_text[plain text] 
+characters, a file can also contain a
 mixture of characters or other non-character data, such as multimedia
 (images, video), compiled computer code (like an application
-executable), or compressed data of any type. They are called "binary"
+executable), or compressed data of any type. They are called 
+http://en.wikipedia.org/wiki/Binary_file[binary files]
 since their composition does not conform to any particular standard
-character coding system, and thus the file can seen as merely a string
+character coding system, and thus the file can seen as merely a series 
 of binary digits (i.e., ones and zeros). Of course, to a computer, every
-bit of information appears binary, but this sort of terminology is meant
-for us humans.
+byte of information consists of binary bits, so think of "binary" data as 
+"not (only) character" data.
 
 Examples are (with example file suffixes):
 
