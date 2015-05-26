@@ -8,7 +8,7 @@ know about computing, on various related topics. The intent is to
 provide a relatively concise guide to the essentials of computing which
 will make the most impact in improving your computing experience.
 
-These "must know" basics are in documented in a
+These "must know" basics are documented in a
 https://github.com/brianhigh/computing-basics/wiki[wiki] and are also
 compiled into an ebook
 (https://github.com/brianhigh/computing-basics/raw/master/computing_basics.pdf[PDF] and
@@ -529,7 +529,7 @@ which benefit from them, but otherwise will use interpreted code. In this
 way, programs written in these languages can offer the benefits of both
 performance and convenience.   
 http://en.wikipedia.org/wiki/Java_%28programming_language%29[Java] 
-is typically compliled into a intermediate form called 
+is typically compiled into a intermediate form called 
 http://en.wikipedia.org/wiki/Java_bytecode[bytecode] which is then
 executed in a virtual environment called the 
 http://en.wikipedia.org/wiki/Java_virtual_machine[Java virtual machine (JVM)]. 
@@ -649,8 +649,8 @@ the site seems fine, but there is still a problem, the cause may be a
 network router or http://en.wikipedia.org/wiki/Network_switch[switch] 
 between you and the other system.
 
-Take some time to learn about concepts such as domain name servers,
-routing, http://en.wikipedia.org/wiki/Network_address_translation[NAT], 
+Take some time to learn about concepts such as http://en.wikipedia.org/wiki/Domain_Name_System[domain name servers],
+http://en.wikipedia.org/wiki/Routing[routing], http://en.wikipedia.org/wiki/Network_address_translation[NAT], 
 etc., as this knowledge will help your troubleshooting
 efforts immensely, saving a lot of time and frustration (yours and those
 who help you).
@@ -678,7 +678,7 @@ settings. These are key pieces of information needed to get help from
 your network service provider. You can do this with utilities included 
 with your operating system.
 
-Learn to do a network "ping" and how to interpret the results. This is
+Learn to do a network http://en.wikipedia.org/wiki/Ping_%28networking_utility%29[ping] and how to interpret the results. This is
 an invaluable troubleshooting tool that comes with most popular desktop
 and laptop computer systems. Ping and 
 http://en.wikipedia.org/wiki/Traceroute[traceroute] (tracert) can help
@@ -708,7 +708,7 @@ be a fast network connection. The bottleneck may be the application you
 are using, extra computational overhead such as compression or
 encryption, network congestion on one or more links along the route, or
 simply that there are a lot of hops between you and the destination,
-each one adding additional overhead and latency. Just because the
+each one adding additional http://en.wikipedia.org/wiki/Protocol_overhead[overhead] and http://en.wikipedia.org/wiki/Latency_%28engineering%29#PACKET-SWITCHED[latency]. Just because the
 endpoints have fast connections does not mean that all of the links
 between them also have fast connections. As an example, major universities 
 usually have very fast Internet connections, but a route between universities 
@@ -903,7 +903,7 @@ socially.
 
 ==== Personal Risk Assessment ====
 
-Ask yourself, "What do I have which I need to protect? How valuable
+Ask yourself, "What do I have that I need to protect? How valuable
 are those things to me?"
 
 Consider the value of your property, your personal safety, your legal
@@ -1037,7 +1037,7 @@ liability.
 
 * Know that Internet-connected devices are always under attack. For
 example, see: http://cybermap.kaspersky.com/[Kaspersky Cyberthreat
-Real-time Map]
+Real-time Map] and http://map.ipviking.com/[Norse IPViking Live]
 * Check email links before clicking on them. Attachments and web links
 can hide attacks.
 * If you receive a questionable attachment from someone you know, it's a
@@ -1191,14 +1191,14 @@ sniffer", "key logger", etc.
 
 Therefore, the best and arguably _only_ course of action after a
 compromise (and after any forensic measures have been taken) is to
-completely "redo" the system from scratch with a fresh install of all
-all software.
+completely "redo" the system from scratch -- using a new or 
+"wiped" storage device (hard drive) and a fresh install of all software.
 
-Forensic measures include any investigation of the system you might do
+Forensic measures include any investigation of the system that you might do
 in order to find out what really happened or who might have compromised
-the system. Usually this means removing any storage device, like a hard drive,
-immediately and making a copy of it for analysis, leaving the original
-drive unmodified and disconnected during analysis.
+the system. Usually this means removing any storage device immediately and 
+making a copy of it for analysis, leaving the original device unmodified 
+and disconnected during analysis.
 
 ==== Email Insecurity ====
 
@@ -1495,11 +1495,11 @@ Examples are:
 text (characters separated with some special character,
 e.g. http://en.wikipedia.org/wiki/Comma-separated_values[CSV], 
 comma separated variables)
-* structured text (like web page code, i.e. 
+* structured or semi-structured text (like web page code, i.e. 
 http://en.wikipedia.org/wiki/HTML[HTML] or 
 http://en.wikipedia.org/wiki/XML[XML], or 
 http://en.wikipedia.org/wiki/JSON[JSON])
-* computer code (characters structured as a "program", i.e. 
+* computer code (characters forming a "program", i.e. 
 http://en.wikipedia.org/wiki/Source_code[source code])
 
 The file name could be just about anything, but often they will end with
